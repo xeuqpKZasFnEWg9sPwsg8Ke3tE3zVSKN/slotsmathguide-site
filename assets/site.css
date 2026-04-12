@@ -1,16 +1,35 @@
-/* Slots Math Guide – minimal, fast, accessible */
+/* Slots Math Guide – premium, fast, accessible (no JS) */
 :root{
+  /* Color (trust + clarity) */
   --bg:#ffffff;
-  --surface:#f6f7f9;
-  --text:#111827;
-  --muted:#4b5563;
+  --surface:#f7f8fb;
+  --surface-2:#ffffff;
+  --text:#0b1220;
+  --muted:#475569;
   --border:#e5e7eb;
-  --link:#0b5fff;
+  --border-strong:#cbd5e1;
+
+  --brand:#0b5fff;
+  --brand-ink:#0a2a8f;
+  --link:var(--brand);
   --link-visited:#6d28d9;
   --focus:#f59e0b;
 
-  --max: 72ch;
-  --radius: 12px;
+  /* Semantic accents */
+  --ok:#0f766e;
+  --warn:#b45309;
+  --danger:#b91c1c;
+  --info:#1d4ed8;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px rgba(2,6,23,.06);
+  --shadow-md: 0 12px 28px rgba(2,6,23,.10);
+
+  /* Layout + type scale */
+  --max: 74ch;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --ring: 0 0 0 3px color-mix(in srgb, var(--focus) 55%, transparent);
 
   --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji","Segoe UI Emoji";
   --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace;
@@ -31,7 +50,7 @@ body{
 a{color:var(--link); text-decoration-thickness:2px; text-underline-offset:3px}
 a:visited{color:var(--link-visited)}
 a:hover{text-decoration-thickness:3px}
-a:focus-visible{outline:3px solid var(--focus); outline-offset:3px; border-radius:6px}
+a:focus-visible{outline:0; box-shadow:var(--ring); border-radius:8px}
 
 .skip-link{
   position:absolute; left:-999px; top:0;
@@ -39,40 +58,97 @@ a:focus-visible{outline:3px solid var(--focus); outline-offset:3px; border-radiu
 }
 .skip-link:focus{left:1rem; top:1rem; z-index:9999}
 
-.container{max-width:calc(var(--max) + 2rem); margin:0 auto; padding:0 1rem}
+.container{max-width:calc(var(--max) + 2.5rem); margin:0 auto; padding:0 1.25rem}
 
 .site-header{
+  position:sticky; top:0; z-index:50;
   border-bottom:1px solid var(--border);
-  background:linear-gradient(180deg, #fff, #fff 60%, #fafafa);
+  background:color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter:saturate(1.2) blur(10px);
 }
-.header-inner{display:flex; gap:1rem; align-items:center; justify-content:space-between; padding:1.1rem 0}
+.header-inner{display:flex; gap:1rem; align-items:center; justify-content:space-between; padding:.9rem 0}
 .brand{display:flex; flex-direction:column; gap:.15rem}
 .brand a{color:inherit; text-decoration:none}
-.brand-name{font-weight:800; letter-spacing:-.02em; font-size:1.15rem}
+.brand-name{font-weight:900; letter-spacing:-.03em; font-size:1.1rem}
 .brand-tag{color:var(--muted); font-size:.95rem}
 
-.nav{display:flex; flex-wrap:wrap; gap:.75rem 1rem}
-.nav a{color:var(--muted); text-decoration:none; font-weight:600}
+.nav{display:flex; flex-wrap:wrap; gap:.5rem .85rem}
+.nav a{color:var(--muted); text-decoration:none; font-weight:650; padding:.35rem .45rem; border-radius:10px}
 .nav a:hover{color:var(--text); text-decoration:underline}
 .nav a[aria-current="page"]{color:var(--text); text-decoration:underline}
 
-main{padding:1.6rem 0 2.4rem}
+/* Mobile header: keep nav usable without JS */
+@media (max-width: 760px){
+  .header-inner{align-items:flex-start; flex-direction:column}
+  .nav{gap:.35rem .5rem}
+  .nav a{background:var(--surface); border:1px solid var(--border); text-decoration:none}
+  .nav a:hover{border-color:var(--border-strong)}
+}
+
+main{padding:1.6rem 0 2.8rem}
 article{max-width:var(--max)}
-h1,h2,h3{line-height:1.25; letter-spacing:-.015em}
-h1{font-size:clamp(1.65rem, 3.2vw, 2.25rem); margin:0 0 .6rem}
-h2{font-size:1.35rem; margin:2rem 0 .6rem}
-h3{font-size:1.1rem; margin:1.2rem 0 .4rem}
+h1,h2,h3{line-height:1.2; letter-spacing:-.02em}
+h1{font-size:clamp(1.75rem, 3.4vw, 2.4rem); margin:0 0 .6rem}
+h2{font-size:1.4rem; margin:2.1rem 0 .7rem}
+h3{font-size:1.12rem; margin:1.25rem 0 .45rem}
 p{margin:.85rem 0}
 ul,ol{padding-left:1.25rem}
 li{margin:.35rem 0}
 hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
 
 .prose a{word-break:break-word}
-.prose code{font-family:var(--mono); font-size:.95em; background:var(--surface); padding:.12em .35em; border-radius:6px}
+.prose code{font-family:var(--mono); font-size:.95em; background:var(--surface); padding:.14em .4em; border-radius:8px; border:1px solid color-mix(in srgb, var(--border) 70%, transparent)}
 .prose pre{background:var(--surface); padding:1rem; border-radius:var(--radius); overflow:auto; border:1px solid var(--border)}
 .prose blockquote{
   margin:1.2rem 0; padding:.2rem 1rem;
   border-left:4px solid var(--border); color:var(--muted)
+}
+
+/* TOC component (optional). Works if markup uses .toc + list */
+.toc{
+  border:1px solid var(--border);
+  background:linear-gradient(180deg, var(--surface), #fff);
+  border-radius:var(--radius);
+  padding:1rem 1.1rem;
+  box-shadow:var(--shadow-sm);
+}
+.toc-title{margin:0 0 .6rem; font-weight:850; letter-spacing:-.02em}
+.toc ol,.toc ul{margin:.2rem 0 0; padding-left:1.1rem}
+.toc a{text-decoration:none}
+.toc a:hover{text-decoration:underline}
+
+/* Callouts */
+.callout{
+  border:1px solid var(--border);
+  background:var(--surface);
+  border-left:6px solid var(--border-strong);
+  border-radius:var(--radius);
+  padding:1rem 1.1rem;
+}
+.callout-title{margin:0 0 .35rem; font-weight:850}
+.callout > :last-child{margin-bottom:0}
+.callout--info{border-left-color:color-mix(in srgb, var(--info) 65%, var(--border-strong))}
+.callout--ok{border-left-color:color-mix(in srgb, var(--ok) 65%, var(--border-strong))}
+.callout--warn{border-left-color:color-mix(in srgb, var(--warn) 70%, var(--border-strong))}
+.callout--danger{border-left-color:color-mix(in srgb, var(--danger) 65%, var(--border-strong))}
+
+/* Tables */
+.table-wrap{overflow:auto; border:1px solid var(--border); border-radius:var(--radius); background:#fff; box-shadow:var(--shadow-sm)}
+table{border-collapse:separate; border-spacing:0; width:100%}
+th,td{padding:.75rem .85rem; border-bottom:1px solid var(--border); vertical-align:top}
+th{position:sticky; top:0; background:linear-gradient(180deg, var(--surface), #fff); text-align:left; font-weight:800}
+tr:last-child td{border-bottom:0}
+tbody tr:hover td{background:color-mix(in srgb, var(--surface) 55%, #fff)}
+
+/* Comparison boxes */
+.compare{display:grid; gap:1rem; grid-template-columns:repeat(2, minmax(0, 1fr))}
+.compare-item{border:1px solid var(--border); border-radius:var(--radius); background:#fff; padding:1rem 1.1rem; box-shadow:var(--shadow-sm)}
+.compare-item h3{margin-top:0}
+.compare-item--best{border-color:color-mix(in srgb, var(--ok) 35%, var(--border)); box-shadow:var(--shadow-md)}
+.compare-item--best .badge{background:color-mix(in srgb, var(--ok) 12%, #fff); border-color:color-mix(in srgb, var(--ok) 35%, var(--border))}
+.badge{display:inline-block; padding:.15rem .5rem; border-radius:999px; font-size:.85rem; border:1px solid var(--border); color:var(--muted)}
+@media (max-width: 760px){
+  .compare{grid-template-columns:1fr}
 }
 
 .notice{
@@ -93,6 +169,7 @@ hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
   border-radius:var(--radius);
   padding:1rem;
   background:#fff;
+  box-shadow:var(--shadow-sm);
 }
 .card a{color:inherit; text-decoration:none}
 .card a:hover{text-decoration:underline}
