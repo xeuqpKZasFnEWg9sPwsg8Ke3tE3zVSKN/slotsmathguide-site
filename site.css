@@ -94,3 +94,32 @@ hr{border:0; border-top:1px solid var(--border); margin:2rem 0}
 .hero p{max-width:60ch}
 
 @media (prefers-reduced-motion: reduce){*{scroll-behavior:auto !important; transition:none !important; animation:none !important}}
+/* Add-on premium UI layer */
+:root{
+  --grad: radial-gradient(1200px 600px at 20% 0%, rgba(11,95,255,.18), transparent 55%),
+          radial-gradient(900px 500px at 80% 10%, rgba(109,40,217,.12), transparent 50%),
+          radial-gradient(800px 500px at 50% 100%, rgba(15,118,110,.10), transparent 55%);
+}
+body{background: var(--grad), var(--bg)}
+.site-header{border-bottom:1px solid color-mix(in srgb, var(--border) 70%, transparent)}
+
+.hero{padding:2.2rem 0 1.6rem}
+.hero h1{font-size:clamp(2.1rem,4.0vw,3.2rem); margin:.4rem 0 1rem}
+.hero .lead{font-size:1.15rem; color:var(--muted); max-width:65ch}
+.hero-actions{display:flex; flex-wrap:wrap; gap:.7rem; margin-top:1.1rem}
+.btn{display:inline-flex; align-items:center; gap:.5rem; padding:.7rem 1rem; border-radius:999px; border:1px solid var(--border); background:#fff; color:var(--text); font-weight:900; text-decoration:none; box-shadow:var(--shadow-sm)}
+.btn:hover{box-shadow:var(--shadow-md)}
+.btn-primary{background:linear-gradient(180deg, #0b5fff, #0a46c9); border-color:#0b5fff; color:#fff}
+.btn-primary:visited{color:#fff}
+
+.kpi{display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; margin:1.4rem 0}
+.kpi .card{position:relative; overflow:hidden}
+.kpi .card:before{content:""; position:absolute; inset:-40% -20%; background:radial-gradient(circle at 30% 30%, rgba(11,95,255,.12), transparent 60%); transform:rotate(-8deg)}
+.kpi .card > *{position:relative}
+
+.section{margin:2.0rem 0}
+.section-title{display:flex; align-items:baseline; justify-content:space-between; gap:1rem}
+.section-title h2{margin:0}
+.section-title .meta{margin:0}
+
+.icon{width:18px; height:18px; display:inline-block}
