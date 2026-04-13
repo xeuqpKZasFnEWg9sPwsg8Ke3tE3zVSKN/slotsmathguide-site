@@ -12,3 +12,59 @@ article.prose, .prose{line-height:1.75}
 .prose th,.prose td{padding:.85rem; border-bottom:1px solid #e2e8f0}
 .prose tr:last-child td{border-bottom:0}
 .prose pre{border-radius:16px}
+
+:root{
+  --bg0:#070A12;
+  --bg1:#0B1220;
+  --panel: rgba(255,255,255,.06);
+  --panel2: rgba(255,255,255,.10);
+  --text0: rgba(255,255,255,.92);
+  --muted0: rgba(255,255,255,.72);
+  --border0: rgba(255,255,255,.12);
+  --accent:#60a5fa;
+  --accent2:#a78bfa;
+}
+body{background:
+  radial-gradient(900px 500px at 15% 0%, rgba(96,165,250,.20), transparent 55%),
+  radial-gradient(900px 500px at 85% 5%, rgba(167,139,250,.18), transparent 55%),
+  radial-gradient(900px 600px at 50% 100%, rgba(45,212,191,.10), transparent 55%),
+  linear-gradient(180deg, var(--bg0), var(--bg1));
+  color:var(--text0);
+}
+.site-header{position:sticky; top:0; z-index:50; backdrop-filter:saturate(160%) blur(10px); background:rgba(7,10,18,.72); border-bottom:1px solid var(--border0)}
+.brand a{color:var(--text0); text-decoration:none}
+.brand-tag{color:var(--muted0)}
+.nav a{color:var(--muted0); text-decoration:none; font-weight:700}
+.nav a:hover{color:var(--text0)}
+.container{max-width:1100px}
+
+/* header layout */
+.header-inner{display:flex; align-items:center; justify-content:space-between; gap:1rem}
+.nav{display:flex; align-items:center; gap:.35rem; flex-wrap:wrap}
+.nav a{padding:.55rem .75rem; border-radius:999px}
+.nav a:hover{background:rgba(255,255,255,.08)}
+
+/* primary CTA */
+.nav .cta{background:linear-gradient(180deg, rgba(96,165,250,.95), rgba(37,99,235,.95)); color:white; border:1px solid rgba(96,165,250,.45)}
+.nav .cta:hover{background:linear-gradient(180deg, rgba(96,165,250,1), rgba(37,99,235,1));}
+
+/* panels */
+.card{background:var(--panel); border:1px solid var(--border0)}
+.callout{background:var(--panel); border:1px solid var(--border0)}
+.badge{background:rgba(255,255,255,.08); border:1px solid var(--border0); color:var(--text0)}
+
+/* readable prose */
+.prose, article.prose{color:var(--text0)}
+.prose p, .prose li{color:var(--muted0)}
+.prose a{color:var(--text0)}
+.prose h1,.prose h2,.prose h3{color:var(--text0)}
+
+.site-footer{border-top:1px solid var(--border0); background:rgba(7,10,18,.65)}
+.footer-links a{color:var(--muted0); text-decoration:none}
+.footer-links a:hover{color:var(--text0)}
+
+/* mobile nav */
+@media (max-width: 820px){
+  .header-inner{align-items:flex-start}
+  .nav{gap:.25rem}
+}
