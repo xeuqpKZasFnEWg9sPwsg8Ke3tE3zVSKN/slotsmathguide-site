@@ -1,4 +1,16 @@
-<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><title>Payments &amp; Withdrawals | Slots Math Guide</title><meta name="description" content="Withdrawals explained: processing vs delivery time, KYC, limits, fees, delays."><link rel="stylesheet" href="/site.css"><link rel="canonical" href="https://slotsmathguide.ca/payments-and-withdrawals/"></head> <body> <a class="skip-link" href="#content">Skip to content</a> <header class="site-header" role="banner"> <div class="container header-inner"> <div class="brand"> <a href="/" aria-label="Slots Math Guide home"> <div class="brand-name" style="display:flex;align-items:center;gap:.55rem"><img src="/assets/logo.svg" alt="" width="26" height="26" style="display:block"/>Slots Math Guide</div> <div class="brand-tag">Plain-English guides to slots math, bonuses, and withdrawals</div> </a> </div> <nav class="nav" aria-label="Primary"><a href="/slot-guides/">Guides</a><a href="/casino-bonuses/">Bonuses</a><a href="/payments-and-withdrawals/">Withdrawals</a><a href="/ontario/">Ontario</a><a class="cta" href="/slot-guides/">Start here</a></nav> </div> </header> <main id="content" class="container" role="main">
+<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"><title>Payments &amp; Withdrawals | Slots Math Guide</title><meta name="description" content="Withdrawals explained: processing vs delivery time, KYC, limits, fees, delays."><link rel="stylesheet" href="/site.css"><link rel="canonical" href="https://slotsmathguide.ca/payments-and-withdrawals/"></head> <body> <a class="skip-link" href="#content">Skip to content</a> <header class="site-header" role="banner"> <div class="container header-inner"> <div class="brand"> <a href="/" aria-label="Slots Math Guide home"> <div class="brand-name" style="display:flex;align-items:center;gap:.55rem"><img src="/assets/logo.svg" alt="" width="26" height="26" style="display:block"/>Slots Math Guide</div> <div class="brand-tag">Plain-English guides to slots math, bonuses, and withdrawals</div> </a> </div> <nav class="nav" aria-label="Primary"><a href="/slot-guides/">Guides</a><a href="/casino-bonuses/">Bonuses</a><a href="/payments-and-withdrawals/">Withdrawals</a><a href="/ontario/">Ontario</a><a class="cta" href="/slot-guides/">Start here</a></nav><button class="hamburger" data-hamburger aria-label="Menu" aria-expanded="false">
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 7h14M5 12h14M5 17h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+</button> </div> <div class="mobile-drawer" data-mobile-drawer>
+  <a class="cta" href="/slot-guides/">Start here</a>
+  <a href="/slot-guides/">Guides</a>
+  <a href="/casino-bonuses/">Bonuses</a>
+  <a href="/payments-and-withdrawals/">Withdrawals</a>
+  <a href="/ontario/">Ontario</a>
+  <a href="/bonus-terms-glossary/">Glossary</a>
+</div>
+</header> <main id="content" class="container" role="main">
 <section class="py-10 md:py-14">
   <div class="rounded-3xl border border-slate-200 bg-white/70 backdrop-blur p-7 md:p-10 shadow-soft">
     <p class="meta">Processing vs delivery time, KYC, limits, fees, and delays.</p>
@@ -8,4 +20,16 @@
     </div>
   </div>
 </section>
-</main> <footer class="site-footer" role="contentinfo"> <div class="container"> <div class="footer-links"> <a href="/affiliate-disclosure/">Affiliate Disclosure</a> <a href="/responsible-gambling/">Responsible Gambling</a> <a href="/privacy-policy/">Privacy Policy</a> <a href="/about/">About</a> <a href="/contact/">Contact</a> <a href="/terms/">Terms</a> </div> <p class="meta">© 2026 Slots Math Guide</p> </div> </footer> </body></html>
+</main> <footer class="site-footer" role="contentinfo"> <div class="container"> <div class="footer-links"> <a href="/affiliate-disclosure/">Affiliate Disclosure</a> <a href="/responsible-gambling/">Responsible Gambling</a> <a href="/privacy-policy/">Privacy Policy</a> <a href="/about/">About</a> <a href="/contact/">Contact</a> <a href="/terms/">Terms</a> </div> <p class="meta">© 2026 Slots Math Guide</p> </div> </footer> <script>
+/* MobileDrawer */
+(function(){
+  var btn=document.querySelector('[data-hamburger]');
+  var drawer=document.querySelector('[data-mobile-drawer]');
+  if(!btn||!drawer) return;
+  btn.addEventListener('click', function(){
+    drawer.classList.toggle('open');
+    btn.setAttribute('aria-expanded', drawer.classList.contains('open') ? 'true' : 'false');
+  });
+})();
+</script>
+</body></html>
