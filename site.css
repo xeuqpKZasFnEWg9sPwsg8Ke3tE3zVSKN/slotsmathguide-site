@@ -85,3 +85,14 @@ a:hover{text-decoration:none}
 .card a{color:inherit}
 .prose a{text-decoration:underline; text-underline-offset:4px; text-decoration-color: rgba(255,255,255,.35)}
 .prose a:hover{text-decoration-color: rgba(255,255,255,.65)}
+
+/* Fix: compact mobile header + prevent overlap */
+.site-header{position:relative}
+@media (max-width: 520px){
+  .site-header{position:sticky; top:0}
+  .brand-tag{display:none}
+  .nav{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .nav a{font-size:.92rem; padding:.55rem .5rem}
+  .nav .cta{grid-column:1 / -1}
+  main#content{padding-top:.5rem}
+}
