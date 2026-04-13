@@ -1,0 +1,1 @@
+import"./BaseHead.astro_astro_type_script_index_0_lang.BGfjo5mV.js";(function(){var e=document.querySelector("[data-hamburger]"),t=document.querySelector("[data-mobile-drawer]");!e||!t||e.addEventListener("click",function(){t.classList.toggle("open"),e.setAttribute("aria-expanded",t.classList.contains("open")?"true":"false")})})();
