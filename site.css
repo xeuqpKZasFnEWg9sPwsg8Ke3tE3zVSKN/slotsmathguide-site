@@ -68,3 +68,20 @@ body{background:
   .header-inner{align-items:flex-start}
   .nav{gap:.25rem}
 }
+
+/* Hotfix: navigation + typography */
+body{font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";}
+a{text-decoration:none}
+a:hover{text-decoration:none}
+.nav a{display:inline-flex; align-items:center; white-space:nowrap}
+.nav{gap:.5rem}
+@media (max-width: 520px){
+  .nav{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.4rem; margin-top:.5rem}
+  .nav a{justify-content:center; padding:.6rem .6rem}
+  .header-inner{flex-direction:column; align-items:flex-start}
+}
+.brand-name{font-weight:900}
+.brand-tag{font-size:.95rem}
+.card a{color:inherit}
+.prose a{text-decoration:underline; text-underline-offset:4px; text-decoration-color: rgba(255,255,255,.35)}
+.prose a:hover{text-decoration-color: rgba(255,255,255,.65)}
