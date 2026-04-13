@@ -4,3 +4,9 @@
 :root{--tile-bg:rgba(255,255,255,.06);--tile-border:rgba(255,255,255,.12)}
 html.dark{--tile-bg:rgba(255,255,255,.06);--tile-border:rgba(255,255,255,.14)}
 .card,.stack-card,.project-card,.blend{background-color:var(--tile-bg)!important;border-color:var(--tile-border)!important}
+
+/* Tiles hotfix v2 */
+html.dark .bg-white\/70{background-color: rgba(255,255,255,.06)!important}
+html.dark .border-slate-200{border-color: rgba(255,255,255,.14)!important}
+html.dark .text-slate-600{color: rgba(255,255,255,.72)!important}
+html.dark .text-slate-500{color: rgba(255,255,255,.62)!important}
