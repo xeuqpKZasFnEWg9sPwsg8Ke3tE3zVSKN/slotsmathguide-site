@@ -43,7 +43,7 @@
 
   <h1 class="mt-4 text-4xl md:text-6xl font-extrabold tracking-tight">Wagering requirements, explained (with simple math).</h1>
   <p class="mt-3 text-sm" style="color: rgb(var(--muted));"><strong>TL;DR:</strong> Your required betting = wagering rate × base, adjusted by contribution. The base is usually <em>bonus only</em> or <em>deposit + bonus</em>.</p>
-  <p class="mt-4 text-lg lp-sub" style="color: rgb(var(--muted));">Wagering is the total amount you must bet before bonus funds and bonus-linked winnings become withdrawable. Most promos are decided by three lines: what’s multiplied, what counts, and what voids wins.</p>
+  <p class="mt-4 text-lg lp-sub" style="color: rgb(var(--muted));">Wagering (playthrough) is the total amount you must bet before bonus funds and bonus-linked winnings become withdrawable. Most promos are decided by three lines: what’s multiplied, what counts, and what voids wins. If you can find those lines, you can usually predict whether a “30x” bonus is fair or a withdrawal trap.</p>
 
   <div class="mt-6 flex flex-wrap gap-3" aria-label="Primary actions">
     <a class="btn btn-primary" href="#calculator">Use the 60-second calculator</a>
@@ -54,9 +54,9 @@
   <p class="mt-3 text-sm" style="color: rgb(var(--muted));">Already stuck on a pending cashout? Start with <a class="underline underline-offset-4" href="/payments-and-withdrawals/">payments &amp; withdrawals</a>, then check typical <a class="underline underline-offset-4" href="/withdrawal-times/">withdrawal times</a>.</p>
 
   <section class="mt-7 wr-quick" aria-label="Quick definition">
-    <div class="q"><div class="k">Formula</div><div class="v">Wagering = multiplier × base</div><div class="d">Bonus-only vs deposit+bonus is the biggest swing.</div></div>
-    <div class="q"><div class="k">Contribution</div><div class="v">0% to 100%</div><div class="d">If a game counts 10%, “30x” behaves like “300x”.</div></div>
-    <div class="q"><div class="k">Withdrawal blockers</div><div class="v">Max bet, max cashout</div><div class="d">Break either, and winnings can be voided or capped.</div></div>
+    <div class="q"><div class="k">Simple formula</div><div class="v">Wagering = multiplier × base</div><div class="d">The base is usually <strong>bonus only</strong> or <strong>deposit + bonus</strong>.</div></div>
+    <div class="q"><div class="k">Real-world formula</div><div class="v">Effective wagering = target ÷ contribution</div><div class="d">10% contribution turns “30x” into “300x” in practice.</div></div>
+    <div class="q"><div class="k">Terms that bite</div><div class="v">Max bet, max cashout, restricted games</div><div class="d">Break the rule and winnings can be voided or capped, even if you’re close.</div></div>
   </section>
 
   <section class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4" aria-label="The 3 checks">
@@ -84,21 +84,22 @@
         </div>
 
         <div class="mt-6 card p-6" aria-label="Calculator" id="calculator">
-          <div class="text-sm font-extrabold">60-second wagering calculator</div>
-          <p class="mt-2 text-sm" style="color: rgb(var(--muted));">Use this as a quick sanity check before you opt in.</p>
+          <div class="text-sm font-extrabold">60-second wagering calculator (copy/paste friendly)</div>
+          <p class="mt-2 text-sm" style="color: rgb(var(--muted));">Use this to decide whether to opt in, and to estimate how long the requirement will take at your usual bet size.</p>
           <ol class="mt-3 space-y-2 text-sm" style="color: rgb(var(--muted));">
-            <li><strong>Step 1:</strong> Write the base (bonus only, or deposit + bonus).</li>
-            <li><strong>Step 2:</strong> Multiply by the wagering rate (for example, 30x).</li>
-            <li><strong>Step 3:</strong> Divide by contribution (100% = ÷1, 10% = ÷0.10).</li>
+            <li><strong>Step 1:</strong> Identify the <strong>base</strong>: bonus only, or deposit + bonus.</li>
+            <li><strong>Step 2:</strong> Compute the <strong>wagering target</strong>: base × multiplier.</li>
+            <li><strong>Step 3:</strong> Adjust for <strong>contribution</strong>: target ÷ contribution rate.</li>
+            <li><strong>Step 4 (optional):</strong> Estimate spins: effective wagering ÷ (your average bet per spin).</li>
           </ol>
-          <div class="mt-3 text-sm" style="color: rgb(var(--muted));">If the site doesn’t show contribution clearly, assume there’s a catch and read the <a href="/casino-bonuses/" class="underline underline-offset-4">bonus terms guide</a>.</div>
+          <div class="mt-3 text-sm" style="color: rgb(var(--muted));">If the site doesn’t show contribution clearly, assume there’s a catch. Start with the <a href="/casino-bonuses/" class="underline underline-offset-4">casino bonuses hub</a> and check the <a href="/bonus-terms-glossary/" class="underline underline-offset-4">glossary</a> for how casinos define “eligible games”.</div>
         </div>
 
         <div class="mt-5 text-sm" style="color: rgb(var(--muted));">Next: learn <a href="/casino-bonuses/" class="underline underline-offset-4">how casino bonuses work</a>, then sanity-check the timeline with <a href="/withdrawal-times/" class="underline underline-offset-4">withdrawal times</a>.</div>
       </div>
 
       <div class="card p-6" aria-label="Red flags">
-        <div class="text-sm font-extrabold">Red flags that cause “can’t withdraw”</div>
+        <div class="text-sm font-extrabold">Red flags that cause “can’t withdraw” (and what to do)</div>
         <ul class="mt-3 space-y-2" style="color: rgb(var(--muted));">
           <li><strong>Deposit+bonus wagering:</strong> the base is bigger than it looks.</li>
           <li><strong>Low contribution:</strong> the game you play may count 0–20% (or not at all).</li>
@@ -108,9 +109,16 @@
           <li><strong>Max cashout:</strong> caps your withdrawal even if you win more.</li>
         </ul>
 
+        <div class="mt-5 card p-5" style="border: 1px solid rgb(var(--border));">
+          <div class="text-sm font-extrabold">If you’re already in a bonus and stuck</div>
+          <div class="mt-2 text-sm" style="color: rgb(var(--muted));">
+            1) Find the <strong>base</strong> (bonus-only vs deposit+bonus). 2) Check <strong>contribution</strong> for the game you’re playing. 3) Re-check <strong>max bet</strong> and <strong>restricted games</strong>. If anything is unclear, pause and review <a class="underline underline-offset-4" href="/payments-and-withdrawals/">payments &amp; withdrawals</a> and <a class="underline underline-offset-4" href="/bonus-terms-glossary/">the terms glossary</a> before you keep spinning.
+          </div>
+        </div>
+
         <div class="mt-5 card p-5" style="background: rgba(255,255,255,.35); border: 1px solid rgb(var(--border));">
           <div class="text-sm font-extrabold">Fast self-check</div>
-          <div class="mt-2 text-sm" style="color: rgb(var(--muted));">If a promo has deposit+bonus wagering <em>and</em> a low max cashout (or strict max bet), treat it as entertainment, not a withdrawal plan.</div>
+          <div class="mt-2 text-sm" style="color: rgb(var(--muted));">If a promo has deposit+bonus wagering <em>and</em> low contribution (or a strict max bet), treat it as entertainment, not a withdrawal plan. If you care about cashing out, compare with the timeline basics in <a class="underline underline-offset-4" href="/withdrawal-times/">withdrawal times</a>.</div>
         </div>
       </div>
     </div>
@@ -151,6 +159,8 @@
       <p class="mt-2" style="color: rgb(var(--muted));">If your game contributes 10%, you effectively need 10× the total bets to clear the same target. This is the most common hidden “gotcha”.</p>
       <div class="mt-4 text-sm font-bold">Quick example</div>
       <p class="mt-2 text-sm" style="color: rgb(var(--muted));">You have $3,000 wagering to clear. If the game counts 10%, you’ll need about <strong>$30,000</strong> in total bets to clear it.</p>
+      <div class="mt-4 text-sm font-bold">Conversion tip</div>
+      <p class="mt-2 text-sm" style="color: rgb(var(--muted));">Before you opt in, look for a table that says “Slots 100% / Table games 0–20%” or a list of excluded games. If you can’t find it, assume tables and live games contribute little or nothing.</p>
       <div class="mt-4">
         <a class="btn btn-ghost" href="/bonus-terms-glossary/">Bonus terms glossary</a>
       </div>
@@ -167,7 +177,7 @@
 
     <div class="card p-6" aria-label="Primary CTA">
       <div class="text-sm font-extrabold">Want the full checklist?</div>
-      <p class="mt-2" style="color: rgb(var(--muted));">Use our hubs to avoid surprises: bonus terms, withdrawals, and Ontario specifics.</p>
+      <p class="mt-2" style="color: rgb(var(--muted));">Use our hubs to avoid surprises before you deposit: bonus terms, withdrawals, and Ontario specifics.</p>
       <div class="mt-4 flex gap-2 flex-wrap">
         <a class="btn btn-primary" href="/casino-bonuses/">Casino bonuses hub</a>
         <a class="btn btn-ghost" href="/payments-and-withdrawals/">Payments hub</a>
@@ -181,10 +191,11 @@
       <div class="text-sm font-extrabold">FAQ</div>
       <div class="mt-3 space-y-3">
         <details><summary>What does “wagering 30x” actually mean?</summary><p>It means your total bets must reach <strong>30 × the base</strong>. The base might be the bonus amount, or it might be deposit + bonus. That single detail can double your requirement.</p></details>
-        <details><summary>Do winnings have wagering too?</summary><p>Often yes when you accept a bonus, but the exact rule varies by promo. Always check whether the site says the requirement applies to “bonus funds and winnings”, and whether the wording is bonus-only or deposit+bonus.</p></details>
-        <details><summary>Why do some games count less toward wagering?</summary><p>Casinos assign contribution rates (0–100%). If a game contributes 10%, you effectively need about 10× more total bets to clear the same target.</p></details>
-        <details><summary>What’s the biggest red flag for withdrawals?</summary><p>Deposit+bonus wagering combined with low contribution or a low max cashout. Add a strict max bet and you have the classic “why can’t I withdraw?” scenario.</p></details>
-        <details><summary>Can terms change after I claim a bonus?</summary><p>The terms you accept at the time are what matter, but disputes are easier if you keep a screenshot of the promo page and the key lines (wagering, max bet, max cashout, time limit).</p></details>
+        <details><summary>What does “playthrough” mean?</summary><p>Playthrough is another word for wagering requirements. Some casinos use “rollover” or “turnover”. The math is the same: multiplier × base, then adjust for contribution.</p></details>
+        <details><summary>Do winnings have wagering too?</summary><p>Often yes when you accept a bonus, but the exact rule varies by promo. Check whether the requirement applies to “bonus funds”, “bonus funds and winnings”, or “bonus + deposit”, and watch for caps like max cashout.</p></details>
+        <details><summary>Why do some games count less toward wagering?</summary><p>Casinos assign contribution rates (0–100%). If a game contributes 10%, you effectively need about 10× more total bets to clear the same target. Tables and live games are commonly low or excluded.</p></details>
+        <details><summary>What’s the biggest red flag for withdrawals?</summary><p>Deposit+bonus wagering combined with low contribution or a strict max bet. Add a low max cashout and you have the classic “why can’t I withdraw?” scenario.</p></details>
+        <details><summary>How do I read max bet rules?</summary><p>Look for a line like “Maximum bet while bonus is active: $X per spin (or per round).” Treat it as a hard rule. If you exceed it, casinos may void winnings, not just reduce them.</p></details>
       </div>
     </div>
   </section>
