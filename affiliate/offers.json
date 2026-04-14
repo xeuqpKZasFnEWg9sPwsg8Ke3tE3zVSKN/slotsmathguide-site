@@ -1,70 +1,122 @@
 {
   "version": 1,
-  "notes": "Official destination URLs only (no affiliate IDs yet). When you sign up, add affiliate params per operator here and update /go/ redirects to use tracked URLs.",
+  "notes": "Official destination URLs only (no affiliate IDs yet). When you sign up, add affiliate params per operator here and update /go/ redirects to use tracked URLs. Regions scaffold added for future province/state expansion.",
   "operators": [
     {
       "slug": "betmgm",
       "name": "BetMGM Ontario",
-      "region": "ON",
       "officialUrl": "https://www.betmgm.com/en/online-casino/ontario",
       "trackedUrl": null,
-      "status": "active"
+      "status": "active",
+      "allowedRegions": [
+        "ON"
+      ],
+      "brandGroup": null,
+      "notes": ""
     },
     {
       "slug": "caesars",
       "name": "Caesars Ontario",
-      "region": "ON",
       "officialUrl": "https://www.caesars.com/ca/online-casino/ontario",
       "trackedUrl": null,
-      "status": "active"
+      "status": "active",
+      "allowedRegions": [
+        "ON"
+      ],
+      "brandGroup": null,
+      "notes": ""
     },
     {
       "slug": "draftkings",
       "name": "DraftKings (Canada)",
-      "region": "CA",
       "officialUrl": "https://casino.draftkings.com/",
       "trackedUrl": null,
-      "status": "active"
+      "status": "active",
+      "allowedRegions": [
+        "CA"
+      ],
+      "brandGroup": null,
+      "notes": ""
     },
     {
       "slug": "fanduel",
       "name": "FanDuel Casino",
-      "region": "CA",
       "officialUrl": "https://casino.fanduel.com/",
       "trackedUrl": null,
-      "status": "active"
+      "status": "active",
+      "allowedRegions": [
+        "CA"
+      ],
+      "brandGroup": null,
+      "notes": ""
     },
     {
       "slug": "bet365",
       "name": "bet365",
-      "region": "CA",
       "officialUrl": "https://www.bet365.com/",
       "trackedUrl": null,
-      "status": "active"
+      "status": "active",
+      "allowedRegions": [
+        "CA"
+      ],
+      "brandGroup": null,
+      "notes": ""
     },
     {
       "slug": "thescorebet",
       "name": "theScore Bet",
-      "region": "CA",
       "officialUrl": "https://www.thescorebet.com/",
       "trackedUrl": null,
-      "status": "active"
+      "status": "active",
+      "allowedRegions": [
+        "CA"
+      ],
+      "brandGroup": null,
+      "notes": ""
     },
     {
       "slug": "pointsbet",
       "name": "PointsBet",
-      "region": "CA",
       "officialUrl": "https://pointsbet.ca/",
       "trackedUrl": null,
-      "status": "active"
+      "status": "active",
+      "allowedRegions": [
+        "CA"
+      ],
+      "brandGroup": null,
+      "notes": ""
     },
     {
       "slug": "betrivers",
       "name": "BetRivers",
-      "region": "CA",
       "officialUrl": "https://betrivers.ca/",
       "trackedUrl": null,
-      "status": "active"
+      "status": "active",
+      "allowedRegions": [
+        "CA"
+      ],
+      "brandGroup": null,
+      "notes": ""
     }
-  ]
+  ],
+  "regions": {
+    "ON": {
+      "name": "Ontario",
+      "country": "CA",
+      "regulated": "iGO",
+      "currency": "CAD"
+    },
+    "CA": {
+      "name": "Canada (general)",
+      "country": "CA",
+      "regulated": null,
+      "currency": "CAD"
+    },
+    "US": {
+      "name": "United States (general)",
+      "country": "US",
+      "regulated": null,
+      "currency": "USD"
+    }
+  }
 }
