@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "notes": "Official destination URLs only (no affiliate IDs yet). When you sign up, add affiliate params per operator here and update /go/ redirects to use tracked URLs.",
+  "operators": [
+    {
+      "slug": "betmgm",
+      "name": "BetMGM Ontario",
+      "region": "ON",
+      "officialUrl": "https://www.betmgm.com/en/online-casino/ontario",
+      "trackedUrl": null,
+      "status": "active"
+    },
+    {
+      "slug": "caesars",
+      "name": "Caesars Ontario",
+      "region": "ON",
+      "officialUrl": "https://www.caesars.com/ca/online-casino/ontario",
+      "trackedUrl": null,
+      "status": "active"
+    },
+    {
+      "slug": "draftkings",
+      "name": "DraftKings (Canada)",
+      "region": "CA",
+      "officialUrl": "https://casino.draftkings.com/",
+      "trackedUrl": null,
+      "status": "active"
+    },
+    {
+      "slug": "fanduel",
+      "name": "FanDuel Casino",
+      "region": "CA",
+      "officialUrl": "https://casino.fanduel.com/",
+      "trackedUrl": null,
+      "status": "active"
+    },
+    {
+      "slug": "bet365",
+      "name": "bet365",
+      "region": "CA",
+      "officialUrl": "https://www.bet365.com/",
+      "trackedUrl": null,
+      "status": "active"
+    },
+    {
+      "slug": "thescorebet",
+      "name": "theScore Bet",
+      "region": "CA",
+      "officialUrl": "https://www.thescorebet.com/",
+      "trackedUrl": null,
+      "status": "active"
+    },
+    {
+      "slug": "pointsbet",
+      "name": "PointsBet",
+      "region": "CA",
+      "officialUrl": "https://pointsbet.ca/",
+      "trackedUrl": null,
+      "status": "active"
+    },
+    {
+      "slug": "betrivers",
+      "name": "BetRivers",
+      "region": "CA",
+      "officialUrl": "https://betrivers.ca/",
+      "trackedUrl": null,
+      "status": "active"
+    }
+  ]
+}
