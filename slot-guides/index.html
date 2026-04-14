@@ -25,14 +25,14 @@
     <link rel="canonical" href="https://slotsmathguide.ca/slot-guides/" />
 
     <!-- Primary Meta Tags -->
-    <title>Slot Guides (RTP, Volatility, Bonuses) | Slots Math Guide</title>
+    <title>Slot Guides: RTP, Volatility, Bonuses (Math-First) | Slots Math Guide</title>
     <meta
       name="title"
-      content="Slot Guides (RTP, Volatility, Bonuses) | Slots Math Guide"
+      content="Slot Guides: RTP, Volatility, Bonuses (Math-First) | Slots Math Guide"
     />
     <meta
       name="description"
-      content="Learn RTP, slot volatility, wagering requirements, and withdrawals. Fast, math-first guides to avoid common slot myths and make better bonus decisions."
+      content="Math-first slot guides on RTP, volatility, wagering requirements, withdrawals, and bonus terms. Learn what matters, avoid common myths, and make cleaner decisions." 
     />
 
     <!-- Open Graph / Facebook -->
@@ -40,11 +40,11 @@
     <meta property="og:url" content="https://slotsmathguide.ca/slot-guides/" />
     <meta
       property="og:title"
-      content="Slot Guides (RTP, Volatility, Bonuses) | Slots Math Guide"
+      content="Slot Guides: RTP, Volatility, Bonuses (Math-First)"
     />
     <meta
       property="og:description"
-      content="Math-first slot guides on RTP, volatility, bonus rules, and withdrawals. Understand the numbers, skip the myths."
+      content="RTP, volatility, bonus rules, and withdrawals, explained without fluff. Understand the numbers, skip the myths." 
     />
     <meta property="og:image" content="https://slotsmathguide.ca/open-graph.jpg" />
 
@@ -53,7 +53,7 @@
     <meta property="twitter:url" content="https://slotsmathguide.ca/slot-guides/" />
     <meta
       property="twitter:title"
-      content="Slot Guides (RTP, Volatility, Bonuses) | Slots Math Guide"
+      content="Slot Guides: RTP, Volatility, Bonuses (Math-First)"
     />
     <meta
       property="twitter:description"
@@ -128,6 +128,10 @@
       .sg-grid .card {
         height: 100%;
       }
+      .sg-grid a:focus-visible {
+        outline: 3px solid rgba(59, 130, 246, 0.65);
+        outline-offset: 3px;
+      }
       .sg-kpi {
         display: grid;
         grid-template-columns: 1fr;
@@ -154,6 +158,14 @@
       .sg-faq p {
         margin-top: 10px;
         color: rgba(148, 163, 184, 0.9);
+      }
+      .sg-quicklinks a {
+        text-decoration: underline;
+        text-decoration-color: rgba(148, 163, 184, 0.5);
+        text-underline-offset: 3px;
+      }
+      .sg-quicklinks a:hover {
+        text-decoration-color: currentColor;
       }
       .sg-cta {
         background: linear-gradient(
@@ -431,22 +443,30 @@
             >
           </div>
           <h1 class="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight">
-            Slot Guides (Math-first)
+            Slot Guides (RTP, volatility, bonuses)
           </h1>
           <p
             class="mt-3 text-lg"
             style="color: rgb(var(--muted)); max-width: 68ch"
           >
-            Use these short guides to understand RTP, volatility, and bonus rules,
-            so you can stop chasing myths like “hot slots” and start making
-            cleaner decisions.
+            Short, math-first explainers for the three things that actually move
+            your results: <strong>RTP</strong> (the long-run average),
+            <strong>volatility</strong> (how wild the swings feel), and
+            <strong>bonus terms</strong> (rules that change expected value).
           </p>
+          <div class="mt-5 sg-quicklinks text-sm" style="color: rgb(var(--muted))">
+            Quick start:
+            <a href="/rtp-in-slots/">RTP</a>
+            · <a href="/slot-volatility/">Volatility</a>
+            · <a href="/wagering-requirements/">Wagering</a>
+            · <a href="/payments-and-withdrawals/">Withdrawals</a>
+            · <a href="/casino-bonuses/">Bonuses hub</a>
+          </div>
+
           <div class="mt-6 flex flex-wrap gap-3">
             <a class="btn btn-primary" href="/rtp-in-slots/">Start with RTP</a>
-            <a class="btn btn-ghost" href="/slot-volatility/">Then volatility</a>
-            <a class="btn btn-ghost" href="/wagering-requirements/"
-              >If using bonuses</a
-            >
+            <a class="btn btn-ghost" href="/slot-volatility/">Understand volatility</a>
+            <a class="btn btn-ghost" href="/wagering-requirements/">Check bonus math</a>
           </div>
 
           <div class="mt-6 sg-kpi">
@@ -489,14 +509,15 @@
           </div>
         </section>
 
-        <section class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 sg-grid">
+        <section class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 sg-grid" aria-label="Core guides">
           <a class="card p-6" href="/rtp-in-slots/"
             ><div class="text-xs font-semibold" style="color: rgb(var(--muted))">
               Core
             </div>
             <div class="mt-2 text-xl font-bold">RTP (Return to Player)</div>
             <div class="mt-2" style="color: rgb(var(--muted))">
-              What it is, what it isn’t, and why RTP can vary by version.
+              What RTP means, what it does not mean, and why it can vary by game
+              version.
             </div></a
           >
           <a class="card p-6" href="/slot-volatility/"
@@ -505,7 +526,8 @@
             </div>
             <div class="mt-2 text-xl font-bold">Volatility (Variance)</div>
             <div class="mt-2" style="color: rgb(var(--muted))">
-              Why two slots with the same RTP can feel totally different.
+              Why two slots with the same RTP can feel totally different in a
+              real session.
             </div></a
           >
           <a class="card p-6" href="/wagering-requirements/"
@@ -514,7 +536,8 @@
             </div>
             <div class="mt-2 text-xl font-bold">Wagering Requirements</div>
             <div class="mt-2" style="color: rgb(var(--muted))">
-              Playthrough math with examples and the rules that void wins.
+              Playthrough math with simple examples, plus the rules that can
+              void wins.
             </div></a
           >
         </section>
@@ -541,12 +564,12 @@
           </a>
         </section>
 
-        <section class="mt-6 lp-band">
+        <section class="mt-6 lp-band" aria-label="Recommended reading order">
           <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <div>
-              <div class="text-sm font-bold">3-minute flow</div>
+              <div class="text-sm font-bold">A simple reading order</div>
               <div class="mt-1" style="color: rgb(var(--muted))">
-                RTP → Volatility → (Bonuses) → Withdrawals.
+                RTP → Volatility → (If using bonuses: Wagering + Terms) → Withdrawals.
               </div>
             </div>
             <div class="flex gap-2 flex-wrap">
@@ -558,17 +581,15 @@
           </div>
         </section>
 
-        <section class="mt-6">
+        <section class="mt-6" aria-label="Primary CTA">
           <div class="card p-6 sg-cta">
             <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
               <div>
-                <div class="text-sm font-bold">
-                  Want the fastest path to “Is this bonus worth it?”
-                </div>
+                <div class="text-sm font-bold">Fastest path to “Is this bonus worth it?”</div>
                 <div class="mt-1" style="color: rgb(var(--muted)); max-width: 70ch">
                   Read wagering requirements first, then skim the bonus glossary
-                  so you can spot the clauses that change expected value (max
-                  cashout, excluded games, max bet, time limits).
+                  to spot the clauses that actually change expected value: max
+                  cashout, excluded games, max bet, and time limits.
                 </div>
               </div>
               <div class="flex gap-2 flex-wrap">
