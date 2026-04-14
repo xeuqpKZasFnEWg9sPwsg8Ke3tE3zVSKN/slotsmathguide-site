@@ -25,15 +25,20 @@
     <link rel="canonical" href="https://slotsmathguide.ca/slot-guides/" />
 
     <!-- Primary Meta Tags -->
-    <title>Slot Guides (Canada): RTP, Volatility, Wagering, Withdrawals | Slots Math Guide</title>
+    <title>Slot Guides for Canada: RTP, Volatility, Wagering, Withdrawals | Slots Math Guide</title>
     <meta
       name="title"
-      content="Slot Guides (Canada): RTP, Volatility, Wagering, Withdrawals | Slots Math Guide"
+      content="Slot Guides for Canada: RTP, Volatility, Wagering, Withdrawals | Slots Math Guide"
     />
     <meta
       name="description"
-      content="Math-first slot guides for RTP, volatility, wagering requirements, withdrawals, and bonus terms in Canada. Learn what affects expected value, avoid common traps, and compare offers with confidence."
-    />
+      content="Math-first slot guides for Canadian players: RTP, volatility, wagering requirements, withdrawals, and bonus terms. Learn what changes expected value, avoid common traps, and compare offers with confidence." />
+
+    <!-- Additional SEO -->
+    <meta
+      name="keywords"
+      content="slot guides Canada,RTP,slot volatility,wagering requirements,withdrawal times,bonus terms,max cashout,excluded games,max bet,time limits" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
@@ -176,6 +181,35 @@
 
       .sg-bullets li {
         margin-top: 6px;
+      }
+
+      .sg-steps {
+        counter-reset: step;
+      }
+      .sg-steps li {
+        list-style: none;
+        margin-top: 10px;
+        padding-left: 40px;
+        position: relative;
+      }
+      .sg-steps li::before {
+        counter-increment: step;
+        content: counter(step);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 28px;
+        height: 28px;
+        border-radius: 999px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+        background: rgba(37, 99, 235, 0.18);
+        border: 1px solid rgba(148, 163, 184, 0.28);
+      }
+      html:not(.dark) .sg-steps li::before {
+        background: rgba(37, 99, 235, 0.10);
       }
 
       .sg-mini-card {
@@ -557,41 +591,49 @@
               </div>
 
               <h1 class="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight">
-                Slot guides for Canada, RTP, volatility, wagering, and withdrawals
+                Slot guides for Canada: RTP, volatility, wagering, and withdrawals
               </h1>
 
-              <p class="mt-3 text-lg" style="color: rgb(var(--muted)); max-width: 72ch">
-                These math-first guides help you make better decisions about <strong>RTP</strong> (long-run average),
-                <strong>volatility</strong> (how wide outcomes spread), and <strong>bonus terms</strong> (rules that change expected value).
-                If you play in Canada (including Ontario), use this hub to get to the few pages that actually change what you do.
+              <p class="mt-3 text-lg" style="color: rgb(var(--muted)); max-width: 74ch">
+                Use this hub to learn the only slot concepts that reliably change decisions: <strong>RTP</strong> (long-run average),
+                <strong>volatility</strong> (how wide results swing), and <strong>bonus terms</strong> (rules that change expected value).
+                Built for Canadian players (including Ontario), with practical checklists over hype.
               </p>
 
-              <div class="mt-4 sg-mini-card" aria-label="What you'll get">
-                <div class="text-sm font-bold">What you’ll get (in under 10 minutes)</div>
-                <ul class="mt-2 text-sm sg-bullets" style="color: rgb(var(--muted)); line-height: 1.65; padding-left: 18px">
-                  <li><b>Clear definitions</b> that match how slots behave (not marketing).</li>
-                  <li><b>A quick bonus checklist</b> (wagering, max cashout, excluded games, max bet, time limits).</li>
-                  <li><b>Better expectations</b> for what a “good session” can look like at different volatility levels.</li>
-                </ul>
+              <div class="mt-4 sg-mini-card" aria-label="2-minute checklist">
+                <div class="text-sm font-bold">2-minute checklist before you deposit</div>
+                <ol class="mt-2 text-sm sg-steps" style="color: rgb(var(--muted)); line-height: 1.65; padding-left: 0">
+                  <li>
+                    <b>Find the RTP</b> (and whether your casino offers a lower RTP version).
+                    <a href="/rtp-in-slots/" class="ml-1">How RTP works →</a>
+                  </li>
+                  <li>
+                    <b>Match volatility to your budget</b>, not your mood.
+                    <a href="/slot-volatility/" class="ml-1">Volatility explained →</a>
+                  </li>
+                  <li>
+                    If you take a bonus, <b>price the wagering</b> and scan for <b>max cashout</b>, <b>excluded games</b>, <b>max bet</b>, and <b>time limits</b>.
+                    <a href="/wagering-requirements/" class="ml-1">Wagering math →</a>
+                  </li>
+                </ol>
               </div>
 
               <div class="mt-5 sg-quicklinks text-sm" style="color: rgb(var(--muted))">
-                Quick start:
-                <a href="/rtp-in-slots/">RTP</a>
-                · <a href="/slot-volatility/">Volatility</a>
-                · <a href="/wagering-requirements/">Wagering</a>
-                · <a href="/payments-and-withdrawals/">Withdrawals</a>
-                · <a href="/bonus-terms-glossary/">Bonus terms</a>
+                Jump to:
+                <a href="#core">Core guides</a>
+                · <a href="#next">Next steps</a>
+                · <a href="#bonus-terms">Bonus terms</a>
+                · <a href="#faq">FAQ</a>
               </div>
 
               <div class="mt-6 flex flex-wrap gap-3">
-                <a class="btn btn-primary" href="/rtp-in-slots/">Start with RTP</a>
-                <a class="btn btn-ghost" href="/slot-volatility/">Understand volatility</a>
-                <a class="btn btn-ghost" href="/wagering-requirements/">Check wagering math</a>
+                <a class="btn btn-primary" href="/wagering-requirements/">Check a bonus (wagering)</a>
+                <a class="btn btn-ghost" href="/rtp-in-slots/">Start with RTP</a>
+                <a class="btn btn-ghost" href="/slot-volatility/">Pick volatility</a>
               </div>
 
               <div class="mt-4 text-xs" style="color: rgb(var(--muted))">
-                Reading tip: RTP first, then volatility. If you accept bonuses, read wagering requirements before you deposit.
+                Practical order: RTP → volatility → (if you take bonuses) wagering + terms → withdrawals.
               </div>
             </div>
 
@@ -727,7 +769,7 @@
           </div>
         </section>
 
-        <section class="mt-6" aria-label="Bonus terms quick links">
+        <section id="bonus-terms" class="mt-6" aria-label="Bonus terms quick links">
           <div class="card p-6">
             <div class="text-sm font-bold">Bonus terms that change expected value</div>
             <div class="mt-1" style="color: rgb(var(--muted)); max-width: 75ch">
