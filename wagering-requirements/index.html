@@ -41,14 +41,14 @@
     <span class="pill">Ontario-first</span>
   </div>
 
-  <h1 class="mt-4 text-4xl md:text-6xl font-extrabold tracking-tight">Wagering requirements, explained (simple math, real examples, and a quick checklist).</h1>
-  <p class="mt-3 text-sm" style="color: rgb(var(--muted));"><strong>TL;DR:</strong> Wagering target = <strong>multiplier × base</strong>, then divide by <strong>contribution</strong>. The base is usually <em>bonus only</em> or <em>deposit + bonus</em> (this one detail can double the requirement).</p>
-  <p class="mt-4 text-lg lp-sub" style="color: rgb(var(--muted));">Wagering (also called <strong>playthrough</strong>, <strong>rollover</strong>, or <strong>turnover</strong>) is the total amount you must bet before bonus funds, and often bonus-linked winnings, become withdrawable. Most promos are decided by three lines: <strong>what’s multiplied</strong>, <strong>what counts</strong>, and <strong>what voids wins</strong>. If you can find those lines, you can usually spot a “30x” deal that’s fine, and avoid the ones that quietly block withdrawals.</p>
+  <h1 class="mt-4 text-4xl md:text-6xl font-extrabold tracking-tight">Wagering requirements explained (simple math, real examples, and a checklist that protects withdrawals).</h1>
+  <p class="mt-3 text-sm" style="color: rgb(var(--muted));"><strong>TL;DR:</strong> Find the <strong>base</strong> (bonus-only vs deposit+bonus), multiply by the <strong>x</strong>, then adjust for <strong>game contribution</strong>. Most “can’t withdraw” problems come from <strong>deposit+bonus wagering</strong>, <strong>low contribution</strong>, and <strong>max bet</strong> rules.</p>
+  <p class="mt-4 text-lg lp-sub" style="color: rgb(var(--muted));">Wagering requirements (also called <strong>playthrough</strong>, <strong>rollover</strong>, or <strong>turnover</strong>) are the total amount you must bet before bonus funds, and often bonus-linked winnings, become withdrawable. Ignore the marketing. A promo usually succeeds or fails on three lines: <strong>what’s multiplied</strong>, <strong>what counts</strong>, and <strong>what voids winnings</strong>. This page shows the math and the exact traps that cause cashouts to get capped, delayed, or rejected.</p>
 
   <div class="mt-6 flex flex-wrap gap-3" aria-label="Primary actions">
-    <a class="btn btn-primary" href="#calculator">Calculate your wagering in 60 seconds</a>
-    <a class="btn btn-ghost" href="#examples">Jump to examples</a>
-    <a class="btn btn-ghost" href="/casino-bonuses/">How casino bonuses work</a>
+    <a class="btn btn-primary" href="#calculator">Calculate your wagering (60 seconds)</a>
+    <a class="btn btn-ghost" href="#red-flags">Spot the withdrawal traps</a>
+    <a class="btn btn-ghost" href="/casino-bonuses/">Bonus terms, explained</a>
   </div>
 
   <p class="mt-3 text-sm" style="color: rgb(var(--muted));">Already stuck on a pending cashout? Start with <a class="underline underline-offset-4" href="/payments-and-withdrawals/">payments &amp; withdrawals</a>, then compare with typical <a class="underline underline-offset-4" href="/withdrawal-times/">withdrawal times</a> before you assume something is wrong.</p>
@@ -85,7 +85,7 @@
 
         <div class="mt-6 card p-6" aria-label="Calculator" id="calculator">
           <div class="text-sm font-extrabold">60-second wagering calculator (copy/paste friendly)</div>
-          <p class="mt-2 text-sm" style="color: rgb(var(--muted));">Use this to decide whether to opt in, and to estimate how long the requirement will take at your usual bet size. If you’re comparing two offers, compute both and pick the one with the lower <strong>effective wagering</strong>, not just the lower “x”.</p>
+          <p class="mt-2 text-sm" style="color: rgb(var(--muted));">Use this before you opt in. It tells you (1) the real wagering target, (2) how contribution changes it, and (3) about how many spins your usual bet size implies. When comparing two offers, pick the lower <strong>effective wagering</strong>, not the lower “x”.</p>
 
           <div class="mt-4 card p-5" style="border:1px solid rgb(var(--border));">
             <div class="text-sm font-extrabold">Fill in these 5 numbers</div>
@@ -110,7 +110,7 @@
 
           <div class="mt-4 card p-5" style="background: rgba(255,255,255,.35); border: 1px solid rgb(var(--border));">
             <div class="text-sm font-extrabold">Decision rule (fast)</div>
-            <p class="mt-2 text-sm" style="color: rgb(var(--muted));">If the promo has <strong>deposit+bonus</strong> wagering and your game contributes less than <strong>50%</strong> (or there’s a strict <strong>max bet</strong>), assume the real requirement is much bigger than it looks. If you care about cashing out, start with <a href="/payments-and-withdrawals/" class="underline underline-offset-4">payments &amp; withdrawals</a> and sanity-check expectations with <a href="/withdrawal-times/" class="underline underline-offset-4">withdrawal times</a>.</p>
+            <p class="mt-2 text-sm" style="color: rgb(var(--muted));">If the promo uses <strong>deposit+bonus</strong> wagering and your game contributes less than <strong>50%</strong>, treat the “x” as misleading. Add a strict <strong>max bet</strong> and the offer can become a withdrawal blocker. If you care about cashing out, read <a href="/payments-and-withdrawals/" class="underline underline-offset-4">payments &amp; withdrawals</a> and sanity-check what “pending” normally means using <a href="/withdrawal-times/" class="underline underline-offset-4">withdrawal times</a>.</p>
           </div>
 
           <div class="mt-4 text-sm" style="color: rgb(var(--muted));">If the site doesn’t show contribution clearly, assume there’s a catch. Start with the <a href="/casino-bonuses/" class="underline underline-offset-4">casino bonuses hub</a> and check the <a href="/bonus-terms-glossary/" class="underline underline-offset-4">glossary</a> for how casinos define “eligible games”.</div>
@@ -119,7 +119,7 @@
         <div class="mt-5 text-sm" style="color: rgb(var(--muted));">Next: learn <a href="/casino-bonuses/" class="underline underline-offset-4">how casino bonuses work</a>, then sanity-check the timeline with <a href="/withdrawal-times/" class="underline underline-offset-4">withdrawal times</a>.</div>
       </div>
 
-      <div class="card p-6" aria-label="Red flags">
+      <div class="card p-6" aria-label="Red flags" id="red-flags">
         <div class="text-sm font-extrabold">Red flags that cause “can’t withdraw” (and what to do)</div>
         <ul class="mt-3 space-y-2" style="color: rgb(var(--muted));">
           <li><strong>Deposit+bonus wagering:</strong> the base is bigger than it looks.</li>
@@ -133,13 +133,13 @@
         <div class="mt-5 card p-5" style="border: 1px solid rgb(var(--border));">
           <div class="text-sm font-extrabold">If you’re already in a bonus and stuck</div>
           <div class="mt-2 text-sm" style="color: rgb(var(--muted));">
-            1) Find the <strong>base</strong> (bonus-only vs deposit+bonus). 2) Check <strong>contribution</strong> for the game you’re playing. 3) Re-check <strong>max bet</strong> and <strong>restricted games</strong>. If anything is unclear, pause and review <a class="underline underline-offset-4" href="/payments-and-withdrawals/">payments &amp; withdrawals</a> and <a class="underline underline-offset-4" href="/bonus-terms-glossary/">the terms glossary</a> before you keep spinning.
+            1) Confirm the <strong>base</strong> (bonus-only vs deposit+bonus). 2) Confirm your game’s <strong>contribution</strong>. 3) Re-check <strong>max bet</strong> and <strong>restricted games</strong> (these can void winnings). 4) If a cashout is pending, compare your situation to the normal flow in <a class="underline underline-offset-4" href="/payments-and-withdrawals/">payments &amp; withdrawals</a> and typical timelines in <a class="underline underline-offset-4" href="/withdrawal-times/">withdrawal times</a>.
           </div>
         </div>
 
         <div class="mt-5 card p-5" style="background: rgba(255,255,255,.35); border: 1px solid rgb(var(--border));">
           <div class="text-sm font-extrabold">Fast self-check</div>
-          <div class="mt-2 text-sm" style="color: rgb(var(--muted));">If a promo has deposit+bonus wagering <em>and</em> low contribution (or a strict max bet), treat it as entertainment, not a withdrawal plan. If you care about cashing out, compare with the timeline basics in <a class="underline underline-offset-4" href="/withdrawal-times/">withdrawal times</a>.</div>
+          <div class="mt-2 text-sm" style="color: rgb(var(--muted));">If a promo has deposit+bonus wagering <em>and</em> low contribution (or a strict max bet), assume it’s not a reliable withdrawal plan. Either decline the bonus, or choose a promo with clearer terms and higher contribution on the games you actually play.</div>
         </div>
       </div>
     </div>
@@ -175,7 +175,7 @@
       </ul>
       <div class="mt-4 card p-5" style="border:1px solid rgb(var(--border));">
         <div class="text-sm font-extrabold">Quick sanity check</div>
-        <p class="mt-2 text-sm" style="color: rgb(var(--muted));">If the terms do not clearly say what’s multiplied, treat the offer as risky. Jump to the <a class="underline underline-offset-4" href="/bonus-terms-glossary/">bonus terms glossary</a> to decode the wording and spot common traps.</p>
+        <p class="mt-2 text-sm" style="color: rgb(var(--muted));">If the terms do not clearly say what’s multiplied, treat the offer as risky. Use the <a class="underline underline-offset-4" href="/bonus-terms-glossary/">bonus terms glossary</a> to decode wording like “eligible deposit” and “bonus funds”, and don’t keep playing if you can’t confirm the base.</p>
       </div>
     </div>
 
@@ -185,7 +185,7 @@
       <div class="mt-4 text-sm font-bold">Quick example</div>
       <p class="mt-2 text-sm" style="color: rgb(var(--muted));">You have $3,000 wagering to clear. If the game counts 10%, you’ll need about <strong>$30,000</strong> in total bets to clear it.</p>
       <div class="mt-4 text-sm font-bold">Related concept</div>
-      <p class="mt-2 text-sm" style="color: rgb(var(--muted));">Contribution rates combine with <a class="underline underline-offset-4" href="/slot-volatility/">volatility</a>. Even if you can clear wagering, a high-volatility slot can swing hard before you get there.</p>
+      <p class="mt-2 text-sm" style="color: rgb(var(--muted));">Contribution combines with <a class="underline underline-offset-4" href="/slot-volatility/">slot volatility</a>. Even if you can clear wagering on paper, a high-volatility slot can swing hard before you get there.</p>
       <div class="mt-4 text-sm font-bold">Conversion tip</div>
       <p class="mt-2 text-sm" style="color: rgb(var(--muted));">Before you opt in, look for a table that says “Slots 100% / Table games 0–20%” or a list of excluded games. If you can’t find it, assume tables and live games contribute little or nothing.</p>
       <div class="mt-4">
@@ -197,7 +197,7 @@
   <section class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4" aria-label="Voids wins + CTA">
     <div class="card p-6" id="what-voids-wins">
       <div class="text-sm font-extrabold">Step 3: Check the terms that void wins</div>
-      <p class="mt-2" style="color: rgb(var(--muted));">Max bet rules and restricted games matter because they can void winnings even if you meet wagering. Treat them like hard requirements, not fine print.</p>
+      <p class="mt-2" style="color: rgb(var(--muted));">Max bet rules and restricted games matter because they can void winnings even if you meet wagering. Treat them as hard requirements, not fine print.</p>
       <div class="mt-4 text-sm font-bold">If you’re planning to withdraw</div>
       <div class="mt-2 text-sm" style="color: rgb(var(--muted));">Read <a class="underline underline-offset-4" href="/payments-and-withdrawals/">Payments & withdrawals</a> and check <a class="underline underline-offset-4" href="/withdrawal-times/">withdrawal timelines</a> before you deposit, so you know what “pending” usually means.</div>
       <div class="mt-4 text-sm font-bold">Common “void” triggers</div>
@@ -209,13 +209,14 @@
     </div>
 
     <div class="card p-6" aria-label="Primary CTA">
-      <div class="text-sm font-extrabold">Want the full checklist?</div>
-      <p class="mt-2" style="color: rgb(var(--muted));">Use our hubs to avoid surprises before you deposit: bonus terms, withdrawals, and Ontario specifics.</p>
+      <div class="text-sm font-extrabold">Want the bonus checklist that protects withdrawals?</div>
+      <p class="mt-2" style="color: rgb(var(--muted));">Use these hubs to avoid surprises before you deposit. They’re built around the exact terms that block cashouts.</p>
       <div class="mt-4 flex gap-2 flex-wrap">
-        <a class="btn btn-primary" href="/casino-bonuses/">Casino bonuses hub</a>
-        <a class="btn btn-ghost" href="/payments-and-withdrawals/">Payments hub</a>
-        <a class="btn btn-ghost" href="/search/">Search guides</a>
+        <a class="btn btn-primary" href="/bonus-terms-glossary/">Bonus terms glossary</a>
+        <a class="btn btn-ghost" href="/casino-bonuses/">Casino bonuses hub</a>
+        <a class="btn btn-ghost" href="/withdrawal-times/">Withdrawal times</a>
       </div>
+      <div class="mt-3 text-sm" style="color: rgb(var(--muted));">Looking for something specific? Use <a class="underline underline-offset-4" href="/search/">search</a> to jump to RTP, volatility, bonuses, payments, and Ontario guidance.</div>
     </div>
   </section>
 
