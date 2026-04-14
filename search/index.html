@@ -22,7 +22,7 @@
   <div class="mt-6">
     <div class="relative">
       <input id="q" class="w-full h-12 rounded-2xl px-12" placeholder="" style="background: rgba(255,255,255,.06); border: 1px solid rgb(var(--border));" />
-      <div class="absolute left-4 top-1/2 -translate-y-1/2" style="color: rgb(var(--muted));">🔎</div>
+      <div id="mag" class="absolute left-4 top-1/2 -translate-y-1/2" style="color: rgb(var(--muted));">🔎</div>
       <button id="clear" class="absolute right-3 top-1/2 -translate-y-1/2 text-sm" style="color: rgb(var(--muted));">✕</button>
     </div>
   </div>
@@ -58,6 +58,8 @@ function search(){
   render(out);
 }
 q.addEventListener('input',search);
+q.addEventListener('input',()=>{document.getElementById('mag').style.display = q.value ? 'none':'block';});
+document.getElementById('mag').style.display = q.value ? 'none':'block';
 clear.addEventListener('click',()=>{q.value='';search();q.focus();});
 render(PAGES);
 </script>
