@@ -29,7 +29,23 @@
     <span class="px-3 py-1 rounded-full border" style="border-color: rgb(var(--border));">Session expectations</span>
   </div>
   <h1 class="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight">Slot Volatility (Variance)</h1>
-  <p class="mt-4 text-lg" style="color: rgb(var(--muted)); max-width: 65ch;">Volatility is how wide the swings are. It explains why one slot pays little but often, while another stays cold for ages then pops a huge win, even at the same RTP.</p>
+  <section class="mt-6 card p-6">
+  <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+    <div>
+      <div class="text-xs font-semibold" style="color: rgb(var(--muted));">TL;DR</div>
+      <div class="mt-1 text-lg font-bold">Volatility changes the <span class="underline">shape</span> of results, not the average.</div>
+      <div class="mt-2" style="color: rgb(var(--muted));">If you hate long losing streaks, don’t force high volatility just because you saw a big win clip.</div>
+    </div>
+    <div class="card p-5" style="min-width: 260px;">
+      <div class="text-xs font-semibold" style="color: rgb(var(--muted));">Quick pick</div>
+      <div class="mt-2" style="color: rgb(var(--muted));">Low volatility:</div>
+      <div class="font-bold">smaller bankrolls</div>
+      <div class="mt-2" style="color: rgb(var(--muted));">High volatility:</div>
+      <div class="font-bold">bigger swings</div>
+    </div>
+  </div>
+</section>
+<p class="mt-4 text-lg" style="color: rgb(var(--muted)); max-width: 65ch;">Volatility is how wide the swings are. It explains why one slot pays little but often, while another stays cold for ages then pops a huge win, even at the same RTP.</p>
 
   <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
     <div class="card p-6"><div class="text-xs font-semibold" style="color: rgb(var(--muted));">Low volatility</div><div class="mt-2 text-xl font-bold">Smoother sessions</div><div class="mt-2" style="color: rgb(var(--muted));">More frequent smaller wins. Less dramatic swings.</div></div>
@@ -57,6 +73,34 @@
   </div>
 
   
+<section class="mt-6 lp-band">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <div>
+      <div class="text-sm font-bold">What “swingy” looks like</div>
+      <p class="mt-2" style="color: rgb(var(--muted));">Same RTP, different distribution. High volatility concentrates returns into fewer outcomes.</p>
+      <div class="mt-3 text-xs" style="color: rgb(var(--muted));">Illustration (not to scale)</div>
+    </div>
+    <div class="card p-6">
+      <svg viewBox="0 0 520 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Volatility illustration">
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="rgba(59,130,246,.55)"/>
+            <stop offset="1" stop-color="rgba(168,85,247,.55)"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="520" height="180" rx="16" fill="rgba(255,255,255,.04)"/>
+        <g stroke="rgba(148,163,184,.35)" stroke-width="1">
+          <path d="M40 140H480"/>
+          <path d="M40 40V140"/>
+        </g>
+        <path d="M40 120 C110 70, 180 150, 250 110 S390 80, 480 100" fill="none" stroke="url(#g1)" stroke-width="4"/>
+        <path d="M40 110 C120 108, 200 112, 280 110 S420 109, 480 110" fill="none" stroke="rgba(59,130,246,.35)" stroke-width="3" stroke-dasharray="6 6"/>
+        <text x="56" y="28" font-size="12" fill="rgba(148,163,184,.85)">high volatility</text>
+        <text x="56" y="166" font-size="12" fill="rgba(148,163,184,.85)">low volatility</text>
+      </svg>
+    </div>
+  </div>
+</section>
 <section class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
   <div class="card p-6"><div class="text-xs font-semibold" style="color: rgb(var(--muted));">Quick read</div><div class="mt-2 text-xl font-bold">Volatility = swing size</div><div class="mt-2" style="color: rgb(var(--muted));">Not “better” or “worse”, it’s the shape of outcomes.</div></div>
   <div class="card p-6"><div class="text-xs font-semibold" style="color: rgb(var(--muted));">Bankroll</div><div class="mt-2 text-xl font-bold">Controls bust risk</div><div class="mt-2" style="color: rgb(var(--muted));">Higher volatility needs more runway for dry spells.</div></div>
@@ -85,6 +129,18 @@
   </div>
 </section>
 
+<section class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+  <div class="card p-6">
+    <div class="text-sm font-bold">Example: same RTP, different feel</div>
+    <p class="mt-2" style="color: rgb(var(--muted));">Slot A (low volatility) might give you frequent 0.2x to 2x hits. Slot B (high volatility) might be quiet, then hit a 50x or 200x event occasionally.</p>
+    <p class="mt-3" style="color: rgb(var(--muted));">Both can average out similarly over the long run, but your session experience is totally different.</p>
+  </div>
+  <div class="card p-6">
+    <div class="text-sm font-bold">Example: bankroll impact</div>
+    <p class="mt-2" style="color: rgb(var(--muted));">If you have 150 spins worth of bankroll, high volatility is more likely to wipe you out before the “spike” arrives.</p>
+    <p class="mt-3" style="color: rgb(var(--muted));">Lower volatility tends to extend sessions, even if the expected value is similar.</p>
+  </div>
+</section>
 <section class="mt-6 sg-faq">
   <div class="card p-6">
     <div class="text-sm font-bold">FAQ</div>
