@@ -177,23 +177,57 @@
 
   <section class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4" id="bankroll-math">
     <div class="card p-6">
-      <div class="text-sm font-bold">Bankroll rule of thumb (spin-based)</div>
-      <p class="mt-2" style="color: rgb(var(--muted));">A practical way to avoid surprise bust-outs is to convert your bankroll into <strong>number of spins</strong>:</p>
-      <ul class="mt-3 space-y-2" style="color: rgb(var(--muted));">
-        <li><strong>Spin runway</strong> = bankroll ÷ bet size.</li>
-        <li>If your runway is short, <strong>lower volatility</strong> usually protects entertainment time.</li>
-        <li>If you insist on high volatility, consider <strong>lowering your bet</strong> to buy more spins.</li>
-      </ul>
-      <p class="mt-2" style="color: rgb(var(--muted));">Want the math context? <a href="/rtp-in-slots/" class="font-semibold hover:underline">RTP in slots</a> explains why averages can mislead in short sessions, and how volatility changes what you actually experience.</p>
-      <p class="mt-3 text-sm" style="color: rgb(var(--muted));">If you’re wagering a bonus, volatility interacts with bonus rules (max bet, contribution, expiry). Start here: <a href="/casino-bonuses/" class="font-semibold hover:underline">Casino bonuses guide</a>.</p>
+      <div class="text-sm font-bold">Bankroll rule of thumb (spin runway + stop points)</div>
+      <p class="mt-2" style="color: rgb(var(--muted));">Convert your budget into <strong>number of spins</strong>. It’s the simplest way to match volatility to reality (and avoid “this game is broken” feelings during normal dry spells).</p>
+
+      <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div class="card p-4" style="background: rgba(255,255,255,.04);">
+          <div class="text-xs font-semibold" style="color: rgb(var(--muted));">Step 1</div>
+          <div class="mt-1 font-bold">Spin runway</div>
+          <div class="mt-1" style="color: rgb(var(--muted));"><strong>runway</strong> = bankroll ÷ bet size</div>
+        </div>
+        <div class="card p-4" style="background: rgba(255,255,255,.04);">
+          <div class="text-xs font-semibold" style="color: rgb(var(--muted));">Step 2</div>
+          <div class="mt-1 font-bold">Pick a stop point</div>
+          <div class="mt-1" style="color: rgb(var(--muted));">Plan a stop-loss (and optionally a win goal) <strong>before</strong> you start.</div>
+        </div>
+      </div>
+
+      <div class="mt-4">
+        <div class="text-xs font-semibold" style="color: rgb(var(--muted));">Practical baselines (not guarantees)</div>
+        <ul class="mt-2 space-y-2" style="color: rgb(var(--muted));">
+          <li><strong>Under ~150 spins of runway:</strong> lean <strong>low/medium volatility</strong> for a smoother session.</li>
+          <li><strong>150 to 300 spins:</strong> medium volatility fits most people, high volatility becomes more survivable.</li>
+          <li><strong>Chasing high volatility anyway?</strong> buy runway by lowering bet size (that’s the lever).</li>
+        </ul>
+        <p class="mt-3 text-sm" style="color: rgb(var(--muted));">These numbers are here to prevent common bankroll mistakes, not to promise outcomes. Variance can still cluster.</p>
+      </div>
+
+      <div class="mt-4 flex gap-2 flex-wrap">
+        <a class="btn btn-primary" href="/slot-guides/">Find a slot that fits your bankroll</a>
+        <a class="btn btn-ghost" href="/rtp-in-slots/">RTP vs volatility: why averages mislead</a>
+      </div>
+
+      <p class="mt-4" style="color: rgb(var(--muted));">Playing on a casino bonus? Volatility interacts with bonus rules (max bet, contribution, expiry). Start with: <a href="/casino-bonuses/" class="font-semibold hover:underline">Casino bonuses guide</a>.</p>
     </div>
+
     <div class="card p-6">
-      <div class="text-sm font-bold">Common mistake</div>
-      <p class="mt-2" style="color: rgb(var(--muted));">Players often choose high volatility <em>and</em> a high bet size. That combination shrinks runway, increases tilt risk, and makes a “normal” dry spell feel like a malfunction.</p>
+      <div class="text-sm font-bold">Quick betsizing fixer (most important advice)</div>
+      <p class="mt-2" style="color: rgb(var(--muted));">The most common mistake is pairing <strong>high volatility</strong> with a <strong>high bet size</strong>. That shrinks runway and makes normal variance feel brutal.</p>
+
+      <div class="mt-4 card p-5" style="background: rgba(255,255,255,.04);">
+        <div class="text-sm font-bold">If you’re tilting or running out fast…</div>
+        <ul class="mt-3 space-y-2" style="color: rgb(var(--muted));">
+          <li><strong>Reduce bet size first</strong> (buy spins).</li>
+          <li>If you want steadier feedback, <strong>lower volatility</strong> (buy consistency).</li>
+          <li>If you’re wagering a bonus, <strong>check max bet rules</strong> before changing anything.</li>
+        </ul>
+      </div>
+
       <div class="mt-4 flex gap-2 flex-wrap">
         <a class="btn btn-ghost" href="/wagering-requirements/">Wagering requirements (plain English)</a>
-        <a class="btn btn-ghost" href="/casino-bonuses/">Bonus terms that matter most</a>
-        <a class="btn btn-ghost" href="/payments-and-withdrawals/">Payments guide</a>
+        <a class="btn btn-ghost" href="/withdrawal-times/">Withdrawal times (what to expect)</a>
+        <a class="btn btn-ghost" href="/payments-and-withdrawals/">Payments and withdrawals guide</a>
       </div>
     </div>
   </section>
