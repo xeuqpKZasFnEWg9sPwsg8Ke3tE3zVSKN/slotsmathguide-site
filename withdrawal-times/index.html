@@ -181,7 +181,13 @@
       <p class="mt-2" style="color: rgb(var(--muted)); max-width: 78ch;">A cashout is usually <strong>two timelines added together</strong>: (1) the casino’s <strong>processing</strong> (review, KYC, bonus checks), plus (2) the payment method’s <strong>delivery</strong>. The “delivery” part can be quick, but processing is where most delays happen.</p>
 
       <div class="mt-4 overflow-x-auto" aria-label="Withdrawal timelines table">
-        <table class="w-full text-sm" style="border-collapse: collapse; min-width: 620px;">
+        <div class="md:hidden mt-4 grid grid-cols-1 gap-3" aria-label="Typical timelines (mobile)">
+  <div class="card p-6"><div class="font-bold">Interac e-Transfer</div><div class="mt-2" style="color: rgb(var(--muted));">Delivery after approval: often hours to 1 business day</div><div class="mt-1" style="color: rgb(var(--muted));">Processing: usually 0–3 days (casino-dependent)</div></div>
+  <div class="card p-6"><div class="font-bold">E-wallets</div><div class="mt-2" style="color: rgb(var(--muted));">Delivery after approval: often same day</div><div class="mt-1" style="color: rgb(var(--muted));">Processing: usually 0–2 days</div></div>
+  <div class="card p-6"><div class="font-bold">Crypto</div><div class="mt-2" style="color: rgb(var(--muted));">Delivery after approval: minutes to a few hours</div><div class="mt-1" style="color: rgb(var(--muted));">Processing: usually 0–2 days + network time</div></div>
+  <div class="card p-6"><div class="font-bold">Cards / bank transfer</div><div class="mt-2" style="color: rgb(var(--muted));">Delivery after approval: 2–7 business days</div><div class="mt-1" style="color: rgb(var(--muted));">Processing: often 1–5 days</div></div>
+</div>
+<div class="hidden md:block wt-table"><table class="w-full text-sm" style="border-collapse: collapse; min-width: 620px;">
           <thead>
             <tr style="text-align:left;">
               <th style="padding:10px 12px; border-bottom:1px solid rgb(var(--border));">Method</th>
@@ -216,7 +222,7 @@
               <td style="padding:10px 12px; border-bottom:1px solid rgb(var(--border));">Processor batching, extra verification</td>
             </tr>
           </tbody>
-        </table>
+        </table></div>
       </div>
 
       <div class="mt-4 card p-5" aria-label="How to interpret the table">
