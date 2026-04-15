@@ -11,3 +11,8 @@ html.drawer-open, html.drawer-open body{overflow:hidden; height:100%}
 /* header tap targets */
 #header a, #header button{min-height:44px}
 #header .size-9{width:44px;height:44px}
+
+/* card link hover */
+a.card{transition:transform .15s ease, box-shadow .15s ease}
+a.card:hover{transform:translateY(-2px); box-shadow:0 0 0 1px rgb(var(--border)), 0 14px 32px rgba(0,0,0,.12)}
+a.card:active{transform:translateY(0)}
