@@ -11,10 +11,28 @@
   <path d="M148 338c40-124 72-186 104-186 30 0 44 48 56 112 10 54 22 74 48 74 18 0 34-16 60-64" fill="none" stroke="#fff" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
   <circle cx="168" cy="176" r="14" fill="#fff" opacity=".95"/>
   <circle cx="344" cy="152" r="10" fill="#fff" opacity=".85"/></svg> <div data-astro-cid-3ef6ksr2> Slots Math Guide </div> </a> </div> <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2" data-astro-cid-3ef6ksr2> <nav class="hidden md:flex items-center justify-center text-sm gap-1" data-astro-cid-3ef6ksr2> <a href="/" class="h-8 rounded-full px-3 flex items-center justify-center transition-colors duration-300 ease-in-out bg-black dark:bg-white text-white dark:text-black flex items-center justify-center transition-colors duration-300 ease-in-out " data-astro-cid-3ef6ksr2> Home </a><a href="/slot-guides/" class="h-8 rounded-full px-3 text-current flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white" data-astro-cid-3ef6ksr2> Slot Guides </a><a href="/casino-bonuses/" class="h-8 rounded-full px-3 text-current flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white" data-astro-cid-3ef6ksr2> Casino Bonuses </a><a href="/payments-and-withdrawals/" class="h-8 rounded-full px-3 text-current flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white" data-astro-cid-3ef6ksr2> Payments </a> <a href="/ontario/" class="h-8 rounded-full px-3 text-current flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white"> Ontario </a><a href="/bonus-terms-glossary/" class="h-8 rounded-full px-3 text-current flex items-center justify-center transition-colors duration-300 ease-in-out hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white"> Glossary </a></nav> </div> <div class="buttons absolute right-0 top-1/2 -translate-y-1/2 flex gap-1" data-astro-cid-3ef6ksr2> <a href="/search/" aria-label="Search all Slots Math Guide pages" class="hidden md:flex size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out" data-astro-cid-3ef6ksr2> <svg class="size-full" data-astro-cid-3ef6ksr2> <use href="/ui.svg#search" data-astro-cid-3ef6ksr2></use> </svg> </a> <button id="header-theme-button" aria-label="Toggle light and dark theme" class="hidden md:flex size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out" data-astro-cid-3ef6ksr2> <svg class="size-full block dark:hidden" data-astro-cid-3ef6ksr2> <use href="/ui.svg#sun" data-astro-cid-3ef6ksr2></use> </svg> <svg class="size-full hidden dark:block" data-astro-cid-3ef6ksr2> <use href="/ui.svg#moon" data-astro-cid-3ef6ksr2></use> </svg> </button> <button id="header-drawer-button" aria-label="Toggle drawer open and closed" class="flex md:hidden size-9 rounded-full p-2 items-center justify-center bg-transparent hover:bg-black/5 dark:hover:bg-white/20 stroke-current hover:stroke-black hover:dark:stroke-white border border-black/10 dark:border-white/25 transition-colors duration-300 ease-in-out" data-astro-cid-3ef6ksr2> <svg id="drawer-open" class="size-full" data-astro-cid-3ef6ksr2> <use href="/ui.svg#menu" data-astro-cid-3ef6ksr2></use> </svg> <svg id="drawer-close" class="size-full" data-astro-cid-3ef6ksr2> <use href="/ui.svg#x" data-astro-cid-3ef6ksr2></use> </svg> </button> </div> </div>  </div> </header>  <script>
+
+  function setDrawerOpen(open) {
+    const drawer = document.getElementById("drawer")
+    const drawerButton = document.getElementById("header-drawer-button")
+    if (!drawer || !drawerButton) return
+    drawer.classList.toggle("open", open)
+    drawerButton.classList.toggle("open", open)
+    document.documentElement.classList.toggle("drawer-open", open)
+  }
+
+  function closeDrawerOnNavClick() {
+    const drawer = document.getElementById("drawer")
+    if (!drawer) return
+    drawer.querySelectorAll('a[href]').forEach(a => a.addEventListener('click', () => setDrawerOpen(false)))
+    drawer.addEventListener('click', (e) => {
+      if (e.target === drawer) setDrawerOpen(false)
+    })
+  }
   function toggleDrawer() {
     const drawer = document.getElementById("drawer")
     const drawerButton = document.getElementById("header-drawer-button")
-    drawer?.classList.toggle("open")
+    setDrawerOpen(!drawer?.classList.contains("open"))
     drawerButton?.classList.toggle("open")
   }
 
@@ -24,6 +42,7 @@
   }
 
   document.addEventListener("astro:after-swap", initializeDrawerButton)
+  closeDrawerOnNavClick()
   initializeDrawerButton()
 </script> <div id="drawer" class="fixed inset-0 h-0 z-40 overflow-hidden flex flex-col items-center justify-center md:hidden bg-neutral-100 dark:bg-neutral-900 transition-[height] duration-300 ease-in-out" data-astro-cid-hxtyo74s> <nav class="flex flex-col items-center space-y-2" data-astro-cid-hxtyo74s>
  <a href="/slot-guides/" class="flex items-center justify-center px-3 py-1 rounded-full text-current hover:text-black dark:hover:text-white hover:bg-black/5 dark:hover:bg-white/20 transition-colors duration-300 ease-in-out" data-astro-cid-hxtyo74s> Slot Guides </a>

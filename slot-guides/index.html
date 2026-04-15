@@ -484,10 +484,28 @@
     </header>
 
     <script>
-      function toggleDrawer() {
+    
+  function setDrawerOpen(open) {
+    const drawer = document.getElementById("drawer")
+    const drawerButton = document.getElementById("header-drawer-button")
+    if (!drawer || !drawerButton) return
+    drawer.classList.toggle("open", open)
+    drawerButton.classList.toggle("open", open)
+    document.documentElement.classList.toggle("drawer-open", open)
+  }
+
+  function closeDrawerOnNavClick() {
+    const drawer = document.getElementById("drawer")
+    if (!drawer) return
+    drawer.querySelectorAll('a[href]').forEach(a => a.addEventListener('click', () => setDrawerOpen(false)))
+    drawer.addEventListener('click', (e) => {
+      if (e.target === drawer) setDrawerOpen(false)
+    })
+  }
+  function toggleDrawer() {
         const drawer = document.getElementById("drawer")
         const drawerButton = document.getElementById("header-drawer-button")
-        drawer?.classList.toggle("open")
+        setDrawerOpen(!drawer?.classList.contains("open"))
         drawerButton?.classList.toggle("open")
       }
 
@@ -497,7 +515,8 @@
       }
 
       document.addEventListener("astro:after-swap", initializeDrawerButton)
-      initializeDrawerButton()
+      closeDrawerOnNavClick()
+  initializeDrawerButton()
     </script>
 
     <div

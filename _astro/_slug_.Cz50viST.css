@@ -2,3 +2,5 @@
 
 /* Fix header logo overlap on small screens */
 @media(max-width:420px){header a[href="/"]{gap:.35rem} header a[href="/"] div{font-size:14px; white-space:nowrap; max-width:150px; overflow:hidden; text-overflow:ellipsis}}
+
+html.drawer-open, html.drawer-open body{overflow:hidden; height:100%}
