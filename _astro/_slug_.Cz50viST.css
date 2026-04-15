@@ -16,3 +16,7 @@ html.drawer-open, html.drawer-open body{overflow:hidden; height:100%}
 a.card{transition:transform .15s ease, box-shadow .15s ease}
 a.card:hover{transform:translateY(-2px); box-shadow:0 0 0 1px rgb(var(--border)), 0 14px 32px rgba(0,0,0,.12)}
 a.card:active{transform:translateY(0)}
+
+/* cta row spacing */
+.cta-row{gap:.75rem}
+@media(max-width:520px){.cta-row{gap:.5rem}}
