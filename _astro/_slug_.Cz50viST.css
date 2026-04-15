@@ -6,3 +6,6 @@
 /* Keep header/logo fixed; drawer should scroll */
 #header{position:fixed;top:0;left:0;right:0;z-index:9999}
 #drawer.open{height:100vh;overflow:auto;-webkit-overflow-scrolling:touch}
+
+/* Drawer: keep header visible */
+#drawer.open{top:4rem; height:calc(100vh - 4rem) !important;}
