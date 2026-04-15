@@ -4,3 +4,6 @@
 @media(max-width:420px){header a[href="/"]{gap:.35rem} header a[href="/"] div{font-size:14px; white-space:nowrap; max-width:150px; overflow:hidden; text-overflow:ellipsis}}
 
 html.drawer-open, html.drawer-open body{overflow:hidden; height:100%}
+
+/* focus-visible ring */
+:where(a,button,input,summary):focus-visible{outline:2px solid rgba(59,130,246,.55);outline-offset:3px;border-radius:12px}
