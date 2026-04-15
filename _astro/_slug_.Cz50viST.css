@@ -2,7 +2,3 @@
 
 /* Fix header logo overlap on small screens */
 @media(max-width:420px){header a[href="/"]{gap:.35rem} header a[href="/"] div{font-size:14px; white-space:nowrap; max-width:150px; overflow:hidden; text-overflow:ellipsis}}
-
-/* Keep header/logo fixed; drawer should scroll */
-#header{position:fixed;top:0;left:0;right:0;z-index:9999}
-#drawer.open{height:100vh;overflow:auto;-webkit-overflow-scrolling:touch}
