@@ -162,6 +162,10 @@ for (const fp of htmlFiles) {
   const html = readFileSync(fp, 'utf8');
   const rel = fp.slice(ROOT.length).replace(/\\/g, '/');
   const fromRoute = rel === '/index.html' ? '/' : rel.slice(0, -'index.html'.length);
+  const routeSelf = fromRoute;
+
+
+  if (routeSelf === '/search/' ) { continue; }
 
   for (const m of html.matchAll(/<a\b[^>]*href\s*=\s*("([^"]*)"|'([^']*)'|([^\s>]+))[^>]*>/gi)) {
     const href = m[2] ?? m[3] ?? m[4] ?? '';
