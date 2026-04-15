@@ -7,3 +7,7 @@ html.drawer-open, html.drawer-open body{overflow:hidden; height:100%}
 
 /* focus-visible ring */
 :where(a,button,input,summary):focus-visible{outline:2px solid rgba(59,130,246,.55);outline-offset:3px;border-radius:12px}
+
+/* header tap targets */
+#header a, #header button{min-height:44px}
+#header .size-9{width:44px;height:44px}
