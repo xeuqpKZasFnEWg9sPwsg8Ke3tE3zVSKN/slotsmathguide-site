@@ -20,3 +20,7 @@ a.card:active{transform:translateY(0)}
 /* cta row spacing */
 .cta-row{gap:.75rem}
 @media(max-width:520px){.cta-row{gap:.5rem}}
+
+/* section rhythm */
+.section{margin-top:2rem}
+@media(min-width:768px){.section{margin-top:2.5rem}}
