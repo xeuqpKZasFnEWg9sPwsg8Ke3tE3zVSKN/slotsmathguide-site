@@ -220,6 +220,9 @@ if (!existsSync(sitemapPath)) {
 } else {
   const sm = readFileSync(sitemapPath, 'utf8');
   for (const route of routes) {
+    // /go/* is intentionally noindex/nofollow redirect stubs, do not require in sitemap
+    // /search/ is optional depending on SEO policy, do not require here
+    if (route.startsWith('/go/') || route === '/search/') continue;
     const needle = new RegExp(`<loc>[^<]*${escapeRe(route)}<\\/loc>`, 'i');
     if (!needle.test(sm)) {
       fail(`qa-gate: sitemap.xml missing route: ${route}`);
