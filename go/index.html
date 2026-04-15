@@ -36,8 +36,10 @@
   function toggleDrawer() {
     const drawer = document.getElementById("drawer")
     const drawerButton = document.getElementById("header-drawer-button")
-    setDrawerOpen(!drawer?.classList.contains("open"))
-    drawerButton?.classList.toggle("open")
+    const open = !drawer?.classList.contains("open")
+    drawer?.classList.toggle("open", open)
+    drawerButton?.classList.toggle("open", open)
+    document.documentElement.classList.toggle("drawer-open", open)
   }
 
   function initializeDrawerButton() {
