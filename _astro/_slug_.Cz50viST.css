@@ -24,3 +24,9 @@ a.card:active{transform:translateY(0)}
 /* section rhythm */
 .section{margin-top:2rem}
 @media(min-width:768px){.section{margin-top:2.5rem}}
+
+/* button system tighten */
+.btn{font-weight:650}
+.btn-primary{box-shadow:0 6px 18px rgba(37,99,235,.25)}
+.btn-ghost:hover{background-color:rgba(0,0,0,.04)}
+html.dark .btn-ghost:hover{background-color:rgba(255,255,255,.10)}
