@@ -30,3 +30,7 @@ a.card:active{transform:translateY(0)}
 .btn-primary{box-shadow:0 6px 18px rgba(37,99,235,.25)}
 .btn-ghost:hover{background-color:rgba(0,0,0,.04)}
 html.dark .btn-ghost:hover{background-color:rgba(255,255,255,.10)}
+
+/* v4 redesign */
+#subnav .btn{padding:.35rem .8rem;font-size:.85rem}
+html.dark #subnav{background:rgba(3,7,18,.75)}
