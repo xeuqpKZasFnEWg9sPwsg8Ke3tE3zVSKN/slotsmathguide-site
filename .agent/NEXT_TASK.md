@@ -1,4 +1,4 @@
-TASK: Fix the malformed description meta tag on the Ontario fast-withdrawal page so the content closes cleanly.
-FILE: ontario/fast-withdrawal-casinos/index.html
-WHY: The broken quote truncates the meta description and can hurt SEO and social previews.
+TASK: Fix the malformed description meta tag on the Slot Guides hub page so the SEO description closes cleanly.
+FILE: slot-guides/index.html
+WHY: The broken description truncates metadata on a high-traffic hub page and can hurt search previews.
 BROWSER: no

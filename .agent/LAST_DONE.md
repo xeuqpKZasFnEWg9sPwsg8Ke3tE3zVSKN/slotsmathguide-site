@@ -1,4 +1,4 @@
-TASK: Fix the malformed description meta tag on the Ontario fast-withdrawal page so the content closes cleanly.
-FILE: ontario/fast-withdrawal-casinos/index.html
-DONE: Fixed the broken meta description so it now closes cleanly.
+TASK: Fix the malformed description meta tag on the Slot Guides hub page so the SEO description closes cleanly.
+FILE: slot-guides/index.html
+DONE: Fixed the description meta tag so it closes cleanly.
 BROWSER: no
