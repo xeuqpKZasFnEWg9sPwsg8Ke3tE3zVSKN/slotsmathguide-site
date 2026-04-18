@@ -1,4 +1,4 @@
-TASK: Remove the duplicated nested <main> wrapper from the home page so the document landmarks are valid.
+TASK: Deduplicate the homepage Twitter meta tags so each twitter field appears only once.
 FILE: index.html
-WHY: Nested main elements are invalid HTML and can confuse accessibility and page structure on the highest-traffic page.
+WHY: Redundant social metadata adds noise to the highest-traffic page and can confuse crawlers.
 BROWSER: no

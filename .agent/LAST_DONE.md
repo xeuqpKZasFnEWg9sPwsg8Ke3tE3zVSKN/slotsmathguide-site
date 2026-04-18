@@ -1,4 +1,4 @@
-TASK: Remove the duplicated nested <main> wrapper from the home page so the document landmarks are valid.
+TASK: Deduplicate the homepage Twitter meta tags so each twitter field appears only once.
 FILE: index.html
-DONE: Removed the extra nested <main> wrapper on the home page.
+DONE: Removed the duplicate Twitter meta tags on the homepage.
 BROWSER: no
