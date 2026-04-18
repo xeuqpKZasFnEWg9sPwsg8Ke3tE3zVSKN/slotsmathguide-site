@@ -1,4 +1,4 @@
-TASK: Fix the malformed description meta tag on the Slot Guides hub page so the SEO description closes cleanly.
-FILE: slot-guides/index.html
-WHY: The broken description truncates metadata on a high-traffic hub page and can hurt search previews.
+TASK: Remove the duplicated nested <main> wrapper from the home page so the document landmarks are valid.
+FILE: index.html
+WHY: Nested main elements are invalid HTML and can confuse accessibility and page structure on the highest-traffic page.
 BROWSER: no

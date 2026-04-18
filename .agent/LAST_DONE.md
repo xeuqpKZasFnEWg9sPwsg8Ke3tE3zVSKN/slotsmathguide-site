@@ -1,4 +1,4 @@
-TASK: Fix the malformed description meta tag on the Slot Guides hub page so the SEO description closes cleanly.
-FILE: slot-guides/index.html
-DONE: Fixed the description meta tag so it closes cleanly.
+TASK: Remove the duplicated nested <main> wrapper from the home page so the document landmarks are valid.
+FILE: index.html
+DONE: Removed the extra nested <main> wrapper on the home page.
 BROWSER: no
