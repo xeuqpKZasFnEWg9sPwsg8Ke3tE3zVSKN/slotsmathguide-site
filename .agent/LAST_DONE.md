@@ -1,4 +1,4 @@
-TASK: Make the hero CTA the clear visual priority on mobile by tightening the supporting copy and reducing competing text above the fold.
+TASK: Add a compact Ontario-first trust strip directly under the hero CTA with a few concrete proof points.
 FILE: index.html
-DONE: Shortened the hero support copy, hid the extra supporting line on small screens, and stacked the primary and secondary buttons so the main CTA reads first on mobile.
+DONE: Replaced the hero’s generic context box with a compact Ontario-first trust strip that highlights local focus, math-first guidance, and withdrawal awareness.
 BROWSER: no

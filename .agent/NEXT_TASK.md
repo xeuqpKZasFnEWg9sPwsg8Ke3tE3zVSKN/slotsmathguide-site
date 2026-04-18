@@ -1,4 +1,4 @@
-TASK: Make the hero CTA the clear visual priority on mobile by tightening the supporting copy and reducing competing text above the fold.
+TASK: Add a compact Ontario-first trust strip directly under the hero CTA with a few concrete proof points.
 FILE: index.html
-WHY: It improves scanability and lifts the chance that first-time visitors click into the main conversion path.
+WHY: It strengthens credibility immediately and makes the first screen more persuasive.
 BROWSER: no
