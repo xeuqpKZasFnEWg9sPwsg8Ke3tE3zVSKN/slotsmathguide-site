@@ -1,4 +1,4 @@
-TASK: Make the hero comparison path unmistakable by elevating the primary bonus-comparison CTA and tightening the supporting link hierarchy above the fold.
+TASK: Strengthen the above-the-fold comparison path with a clearer bonus-first CTA hierarchy and more visible side-by-side decision framing.
 FILE: index.html
-DONE: Elevated the bonus-comparison CTA and demoted supporting links into a clearer hierarchy.
+DONE: Reworked the hero into a bonus-first comparison path with clearer primary CTA hierarchy and side-by-side decision cards.
 BROWSER: yes
