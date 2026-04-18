@@ -1,4 +1,4 @@
-TASK: Strengthen the above-the-fold comparison path with a clearer bonus-first CTA hierarchy and more visible side-by-side decision framing.
+TASK: Add a compact trust-and-compliance strip under the hero CTA that reinforces Ontario-first credibility and bonus caution.
 FILE: index.html
-DONE: Refined the hero to prioritize the bonus CTA and added clearer side-by-side decision cards for bonus-first versus cashout-first paths.
-BROWSER: yes
+DONE: Added a compact compliance strip under the hero CTA with Ontario-first and bonus caution messaging.
+BROWSER: no
