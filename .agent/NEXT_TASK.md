@@ -1,4 +1,4 @@
-TASK: Add a compact above-the-fold bonus comparison table with a clear CTA so visitors can scan wagering type, max cashout, and max bet faster.
+TASK: Move the main bonus comparison and primary CTA higher on the best-online-casino-bonuses-canada page so visitors can compare offers before the long intro.
 FILE: /home/node/.openclaw/workspace/slotsmathguide-site/best-online-casino-bonuses-canada/index.html
-WHY: The hero already explains the math, but a tighter decision widget should improve scanability and clicks on high-intent visitors.
-BROWSER: yes
+WHY: The page is high-intent and the current above-the-fold area is text-heavy, so surfacing the comparison sooner should improve clicks and affiliate revenue.
+BROWSER: yesBROWSER: yes
