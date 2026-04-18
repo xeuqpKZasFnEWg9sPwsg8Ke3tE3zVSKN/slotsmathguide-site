@@ -1,4 +1,4 @@
-TASK: Deduplicate the homepage Twitter meta tags so each twitter field appears only once.
-FILE: index.html
-WHY: Redundant social metadata adds noise to the highest-traffic page and can confuse crawlers.
-BROWSER: no
+TASK: Add a compact above-the-fold bonus comparison table with a clear CTA so visitors can scan wagering type, max cashout, and max bet faster.
+FILE: /home/node/.openclaw/workspace/slotsmathguide-site/best-online-casino-bonuses-canada/index.html
+WHY: The hero already explains the math, but a tighter decision widget should improve scanability and clicks on high-intent visitors.
+BROWSER: yes
