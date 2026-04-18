@@ -1,4 +1,4 @@
-TASK: Add an early bonus-vs-math comparison module under the hero so visitors can immediately choose the fastest path to the content they need.
+TASK: Add a compact Ontario trust strip under the hero that reinforces math-first credibility, real withdrawal timelines, and bonus caution before the CTA choices.
 FILE: index.html
-WHY: It makes the homepage easier to scan and directs more users into the highest-intent path.
+WHY: It boosts trust at the highest-attention point and should lift conversion without adding clutter.
 BROWSER: no

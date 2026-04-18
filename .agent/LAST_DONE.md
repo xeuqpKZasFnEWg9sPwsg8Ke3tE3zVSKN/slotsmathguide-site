@@ -1,4 +1,4 @@
-TASK: Add an early bonus-vs-math comparison module under the hero so visitors can immediately choose the fastest path to the content they need.
+TASK: Add a compact Ontario trust strip under the hero that reinforces math-first credibility, real withdrawal timelines, and bonus caution before the CTA choices.
 FILE: index.html
-DONE: Replaced the hero follow-up with a two-card comparison module that clearly routes visitors to either bonus comparisons or RTP-first learning.
+DONE: Added a compact three-card Ontario trust strip under the hero highlighting math-first credibility, realistic withdrawal timelines, and bonus caution.
 BROWSER: no
