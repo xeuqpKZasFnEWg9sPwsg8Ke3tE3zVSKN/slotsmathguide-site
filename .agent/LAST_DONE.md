@@ -1,4 +1,4 @@
-TASK: Add a compact Ontario-first trust strip directly under the hero CTA with a few concrete proof points.
+TASK: Add an early bonus-vs-math comparison module under the hero so visitors can immediately choose the fastest path to the content they need.
 FILE: index.html
-DONE: Replaced the hero’s generic context box with a compact Ontario-first trust strip that highlights local focus, math-first guidance, and withdrawal awareness.
+DONE: Added a two-path comparison block under the hero that routes visitors to either bonus offers or RTP math with clearer intent cues.
 BROWSER: no
