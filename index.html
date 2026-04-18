@@ -3,7 +3,7 @@
 /*  */ .lp-hero h1{letter-spacing:-0.03em;} .lp-sub{max-width:58ch;} .lp-icons{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px;} @media(min-width:768px){.lp-icons{grid-template-columns:repeat(4,minmax(0,1fr));}} .lp-icons .item{display:flex; gap:10px; align-items:flex-start; padding:14px; border-radius:20px; border:1px solid rgb(var(--border)); background: rgba(255,255,255,.55);}
 /* Fix Popular next reads mobile padding */
 @media(max-width:520px){.lp-icons{grid-template-columns:1fr !important;}.lp-icons .item{width:100%;padding:16px !important;gap:10px !important;}.lp-icons .item>div{min-width:0}.lp-icons svg{width:18px !important;height:18px !important;margin-top:2px}.lp-icons .item .text-sm{line-height:1.35}} html.dark .lp-icons .item{background: rgba(255,255,255,.06);} .lp-icons svg{width:20px;height:20px;flex:0 0 auto; stroke: rgb(var(--muted)); opacity:.95;} .lp-band{border:1px solid rgb(var(--border)); border-radius:28px; padding:22px; background: radial-gradient(520px 240px at 20% 0%, rgba(59,130,246,.16), transparent 60%), radial-gradient(520px 240px at 80% 10%, rgba(168,85,247,.14), transparent 60%), rgba(255,255,255,.55);} html.dark .lp-band{background: radial-gradient(520px 240px at 20% 0%, rgba(59,130,246,.20), transparent 60%), radial-gradient(520px 240px at 80% 10%, rgba(168,85,247,.18), transparent 60%), rgba(255,255,255,.06);} .lp-faq details{border:1px solid rgb(var(--border)); border-radius:18px; padding:14px 16px; background: rgba(255,255,255,.55);} html.dark .lp-faq details{background: rgba(255,255,255,.06);} .lp-faq summary{cursor:pointer; font-weight:800;} .lp-faq p{margin-top:10px; color: rgb(var(--muted));}
- .lp-cta{display:flex; flex-direction:column; gap:12px; align-items:flex-start; justify-content:space-between;} @media(min-width:768px){.lp-cta{flex-direction:row; align-items:center;}}
+ .lp-cta{display:flex; flex-direction:column; gap:12px; align-items:flex-start; justify-content:space-between;} @media(min-width:768px){.lp-cta{flex-direction:row; align-items:center;}} .lp-primary-panel{border:1px solid rgba(37,99,235,.22); background:linear-gradient(180deg, rgba(255,255,255,.92), rgba(255,255,255,.74)); box-shadow:0 18px 40px rgba(37,99,235,.10);} html.dark .lp-primary-panel{background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.04)); box-shadow:0 18px 40px rgba(0,0,0,.22);} .lp-primary-panel .btn-primary{padding:0.9rem 1.15rem; font-size:1rem; box-shadow:0 12px 24px rgba(37,99,235,.24);} .lp-support{display:grid; gap:.65rem;} .lp-support a{display:flex; align-items:center; justify-content:space-between; gap:.75rem; padding:.85rem 1rem;} .lp-support small{font-size:.72rem; font-weight:800; letter-spacing:.18em; text-transform:uppercase; color: rgb(var(--muted));}
 </style>
 <style>
   .card-link{display:block;padding:0.75rem 1rem;border-radius:0.75rem;border:1px solid rgb(var(--border));background:rgba(255,255,255,.02);transition:transform .12s ease, border-color .12s ease, background-color .12s ease}
@@ -100,19 +100,22 @@
   <h1 class="mt-4 text-4xl md:text-6xl font-extrabold tracking-tight">Slots, bonuses, and withdrawals, explained clearly.</h1>
   <p class="mt-4 text-lg" style="color: rgb(var(--muted)); max-width: 72ch;">Decision-first guides to RTP, volatility, bonus terms, and real withdrawal timelines. Built to reduce confusion and prevent cashout surprises.</p>
   <div class="mt-4 text-sm" style="color: rgb(var(--muted));">Built for Ontario players, but reusable across Canada and US states. No hype, just decision tools.</div>
-  <div class="mt-6 grid gap-4 lg:grid-cols-[1.1fr_.9fr]">
-    <div class="rounded-3xl border border-[rgb(var(--border))] bg-white/65 p-5 shadow-sm backdrop-blur-sm">
-      <div class="text-xs font-semibold uppercase tracking-[0.18em]" style="color: rgb(var(--muted));">Primary path</div>
+  <div class="mt-6 grid gap-4 lg:grid-cols-[1.15fr_.85fr] items-start">
+    <div class="rounded-[2rem] p-6 md:p-7 lp-primary-panel backdrop-blur-sm">
+      <div class="text-xs font-semibold uppercase tracking-[0.22em]" style="color: rgb(var(--muted));">Primary path</div>
       <div class="mt-2 text-2xl md:text-3xl font-extrabold tracking-tight">Compare the best bonuses before you deposit.</div>
       <div class="mt-2 text-sm md:text-base" style="color: rgb(var(--muted));">Use the math-first guides to compare wagering, payments, and withdrawal friction in a few minutes.</div>
-      <div class="mt-4 flex flex-wrap gap-3">
-        <a class="btn btn-primary" href="/best-online-casino-bonuses-canada/">Open bonus comparisons</a>
+      <div class="mt-5 flex flex-wrap items-center gap-3">
+        <a class="btn btn-primary px-6 py-3 text-base" href="/best-online-casino-bonuses-canada/">Open bonus comparisons</a>
         <a class="btn btn-ghost" href="/slot-guides/">Browse slot guides</a>
       </div>
+      <div class="mt-4 text-sm" style="color: rgb(var(--muted));">Start with <a href="/best-online-casino-bonuses-canada/" class="underline underline-offset-4 font-semibold">bonus comparisons</a>, then check RTP and volatility if you want the full picture.</div>
     </div>
-    <div class="grid gap-3">
-      <a class="card p-4" href="/payments-and-withdrawals/"><div class="text-xs font-semibold" style="color: rgb(var(--muted));">Compare payment methods</div><div class="mt-1 text-lg font-bold">Payments &amp; withdrawals</div><div class="mt-1 text-sm" style="color: rgb(var(--muted));">See which methods are faster, cleaner, and less likely to stall.</div></a>
-      <a class="card p-4" href="/wagering-requirements/"><div class="text-xs font-semibold" style="color: rgb(var(--muted));">Compare bonus terms</div><div class="mt-1 text-lg font-bold">Wagering requirements</div><div class="mt-1 text-sm" style="color: rgb(var(--muted));">Find the offers that look best on paper and in practice.</div></a>
+    <div class="rounded-[2rem] border border-[rgb(var(--border))] bg-white/45 p-5 backdrop-blur-sm lp-support">
+      <div class="text-xs font-semibold uppercase tracking-[0.22em]" style="color: rgb(var(--muted));">Supporting reads</div>
+      <a class="card-link" href="/wagering-requirements/"><small>Next</small><span>Wagering requirements</span></a>
+      <a class="card-link" href="/payments-and-withdrawals/"><small>Then</small><span>Payments &amp; withdrawals</span></a>
+      <div class="text-sm" style="color: rgb(var(--muted));">These sharpen the shortlist after you pick a bonus.</div>
     </div>
   </div>
   <div class="mt-5 text-sm" style="color: rgb(var(--muted)); max-width: 70ch;">Not sure where to start? Read <a href="/rtp-in-slots/" class="underline underline-offset-4">RTP in slots</a>, then <a href="/slot-volatility/" class="underline underline-offset-4">slot volatility</a> for risk and bankroll context.</div>

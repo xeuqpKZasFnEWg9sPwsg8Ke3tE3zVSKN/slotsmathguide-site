@@ -1,4 +1,4 @@
-TASK: Rework the hero so the primary conversion path and comparison-oriented links are more prominent above the fold.
+TASK: Make the hero comparison path unmistakable by elevating the primary bonus-comparison CTA and tightening the supporting link hierarchy above the fold.
 FILE: index.html
-DONE: Reworked the hero into a two-column comparison-focused layout that elevates the bonus comparison CTA and related payment and wagering links above the fold.
+DONE: Elevated the bonus-comparison CTA and demoted supporting links into a clearer hierarchy.
 BROWSER: yes
