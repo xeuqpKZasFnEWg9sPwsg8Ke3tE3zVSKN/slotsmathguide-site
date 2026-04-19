@@ -1,4 +1,4 @@
-TASK: Simplify the homepage header into a cleaner, more focused navigation with one dominant Ontario CTA.
+TASK: Tighten the early comparison module so the Ontario-first value proposition and tradeoffs are easier to scan on mobile.
 FILE: index.html
-WHY: A tighter header reduces distraction at the top of the page and makes the primary conversion path easier to spot.
+WHY: A sharper comparison block makes the homepage's core promise clearer faster, which improves trust and click-through.
 BROWSER: no
