@@ -1,4 +1,4 @@
-TASK: Simplify the footer into a cleaner, more trustworthy exit path by removing duplicate links and keeping Ontario bonus offers and the Ontario guide as the main actions.
+TASK: Tighten the hero section so the primary CTA, Ontario trust signals, and comparison value are all easier to scan on first load.
 FILE: index.html
-DONE: Trimmed the footer utility area to non-duplicative links and replaced the bottom link row with a simple trust note, keeping the Ontario bonus offers and Ontario guide as the main actions.
+DONE: Added a three-card hero scan row and tightened the comparison intro so the CTA, Ontario trust signals, and value cues are easier to spot above the fold.
 BROWSER: no
