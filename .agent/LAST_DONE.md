@@ -1,4 +1,4 @@
-TASK: Tighten the early comparison module so Ontario-first advantages are easier to scan on mobile, with shorter bullets and a clearer callout of wagering, max cashout, and withdrawal timing.
+TASK: Tighten the hero trust strip so the Ontario, withdrawal, and wagering proof points read as immediate trust signals on mobile.
 FILE: index.html
-DONE: Shortened the early comparison copy and made wagering, max cashout, and withdrawal timing easier to scan.
+DONE: Shortened the hero trust strip copy so Ontario, withdrawal, and wagering proof points read faster on mobile.
 BROWSER: no

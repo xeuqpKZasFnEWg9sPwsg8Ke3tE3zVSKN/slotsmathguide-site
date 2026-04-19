@@ -1,4 +1,4 @@
-TASK: Tighten the early comparison module so Ontario-first advantages are easier to scan on mobile, with shorter bullets and a clearer callout of wagering, max cashout, and withdrawal timing.
+TASK: Tighten the hero trust strip so the Ontario, withdrawal, and wagering proof points read as immediate trust signals on mobile.
 FILE: index.html
-WHY: A more scannable comparison block should boost trust and conversion by making the practical differences obvious faster.
+WHY: Stronger above-the-fold trust cues should improve conversion by making the site feel more credible before the first click.
 BROWSER: no
