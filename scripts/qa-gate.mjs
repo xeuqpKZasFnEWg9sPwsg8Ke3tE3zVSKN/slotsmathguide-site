@@ -165,7 +165,6 @@ for (const fp of htmlFiles) {
   const routeSelf = fromRoute;
 
 
-  if (routeSelf === '/search/' ) { continue; }
 
   for (const m of html.matchAll(/<a\b[^>]*href\s*=\s*("([^"]*)"|'([^']*)'|([^\s>]+))[^>]*>/gi)) {
     const href = m[2] ?? m[3] ?? m[4] ?? '';
@@ -225,8 +224,7 @@ if (!existsSync(sitemapPath)) {
   const sm = readFileSync(sitemapPath, 'utf8');
   for (const route of routes) {
     // /go/* is intentionally noindex/nofollow redirect stubs, do not require in sitemap
-    // /search/ is optional depending on SEO policy, do not require here
-    if (route.startsWith('/go/') || route === '/search/') continue;
+    if (route.startsWith('/go/')) continue;
     const needle = new RegExp(`<loc>[^<]*${escapeRe(route)}<\\/loc>`, 'i');
     if (!needle.test(sm)) {
       fail(`qa-gate: sitemap.xml missing route: ${route}`);
