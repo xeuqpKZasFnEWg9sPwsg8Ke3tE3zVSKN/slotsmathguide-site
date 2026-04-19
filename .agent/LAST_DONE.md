@@ -1,4 +1,4 @@
-TASK: Add a compact trust-and-disclosure footer block with Ontario-specific credibility and one clear next-step link.
+TASK: Add a single dominant hero CTA with a supporting secondary CTA so the main Ontario conversion path is obvious above the fold.
 FILE: index.html
-DONE: Added a compact Ontario trust-and-disclosure footer panel with one clear guide link.
+DONE: Added a prominent hero CTA panel with a primary Ontario bonus comparison button and a supporting Ontario guide link.
 BROWSER: no
