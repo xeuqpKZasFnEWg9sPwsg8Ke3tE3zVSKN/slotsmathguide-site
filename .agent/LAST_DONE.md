@@ -1,4 +1,4 @@
 TASK: Strengthen the hero so the value proposition and Ontario-first trust are immediately obvious above the fold.
 FILE: index.html
-DONE: Reworked the hero with clearer Ontario-first messaging, a sharper value proposition, and more explicit trust cues above the fold.
+DONE: Tightened the hero copy and comparison module to make Ontario-first value, trust, and payout context clearer at a glance.
 BROWSER: no
