@@ -1,4 +1,4 @@
-TASK: Make the footer more useful by adding a compact trust-and-links block that surfaces the most important Ontario, bonus, and withdrawal destinations.
+TASK: Tighten the hero comparison module so the Ontario-first value proposition is faster to scan and the primary bonus CTA feels more decisive.
 FILE: index.html
-DONE: Reworked the footer into a tighter trust-and-links block with clearer destination cards for Ontario, bonuses, withdrawals, RTP, plus utility links.
+DONE: Tightened the hero comparison copy and CTA language so Ontario-first value and the bonus path read faster at a glance.
 BROWSER: no

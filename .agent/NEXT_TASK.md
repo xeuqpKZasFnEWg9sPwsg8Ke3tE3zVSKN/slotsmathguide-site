@@ -1,4 +1,4 @@
-TASK: Make the footer more useful by adding a compact trust-and-links block that surfaces the most important Ontario, bonus, and withdrawal destinations.
+TASK: Tighten the hero comparison module so the Ontario-first value proposition is faster to scan and the primary bonus CTA feels more decisive.
 FILE: index.html
-WHY: A stronger footer can improve trust and topic discovery while giving hesitant visitors one last clear path deeper into the site.
+WHY: A clearer above-the-fold decision aid should improve conversion by making the benefit of choosing this site obvious at a glance.
 BROWSER: no
