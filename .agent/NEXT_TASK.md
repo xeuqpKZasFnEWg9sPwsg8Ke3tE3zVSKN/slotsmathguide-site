@@ -1,4 +1,4 @@
-TASK: Tighten the hero trust strip so the Ontario, withdrawal, and wagering proof points read as immediate trust signals on mobile.
+TASK: Simplify the homepage header so one primary Ontario bonus CTA and one supporting link are immediately obvious on desktop and mobile.
 FILE: index.html
-WHY: Stronger above-the-fold trust cues should improve conversion by making the site feel more credible before the first click.
+WHY: A cleaner, more focused header should improve conversion by reducing choice overload and keeping the commercial path obvious.
 BROWSER: no

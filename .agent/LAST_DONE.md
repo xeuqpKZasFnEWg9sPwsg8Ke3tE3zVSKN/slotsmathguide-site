@@ -1,4 +1,4 @@
-TASK: Tighten the hero trust strip so the Ontario, withdrawal, and wagering proof points read as immediate trust signals on mobile.
+TASK: Simplify the homepage header so one primary Ontario bonus CTA and one supporting link are immediately obvious on desktop and mobile.
 FILE: index.html
-DONE: Made the hero trust strip more mobile-first by shortening card copy and hiding supporting text on small screens.
+DONE: Added a visible mobile Ontario bonus CTA with a supporting Ontario guide link in the header, while keeping the desktop CTA pair focused.
 BROWSER: no
