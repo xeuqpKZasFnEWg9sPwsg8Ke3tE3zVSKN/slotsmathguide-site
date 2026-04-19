@@ -1,4 +1,4 @@
-TASK: Simplify the footer into a cleaner, more trustworthy exit path by removing duplicate links and keeping Ontario bonus offers and the Ontario guide as the main actions.
+TASK: Make the hero’s primary conversion path more unmistakable by visually emphasizing the Ontario bonus CTA and keeping the supporting Ontario guide CTA secondary.
 FILE: index.html
-WHY: A tighter footer improves scanability and makes the final conversion path easier to trust and use.
-BROWSER: no
+WHY: A clearer above-the-fold CTA hierarchy should improve conversion by making the next step obvious without adding clutter.
+BROWSER: yes
