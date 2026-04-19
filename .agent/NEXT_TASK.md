@@ -1,4 +1,4 @@
-TASK: Simplify the homepage header so one primary Ontario bonus CTA and one supporting link are immediately obvious on desktop and mobile.
+TASK: Tighten the hero trust and comparison messaging so the Ontario-first value proposition and key proof points are clearer immediately below the primary CTA.
 FILE: index.html
-WHY: A cleaner, more focused header should improve conversion by reducing choice overload and keeping the commercial path obvious.
+WHY: Sharper above-the-fold messaging should improve conversion and trust by making the page's value obvious faster.
 BROWSER: no

@@ -1,4 +1,4 @@
-TASK: Simplify the homepage header so one primary Ontario bonus CTA and one supporting link are immediately obvious on desktop and mobile.
+TASK: Tighten the hero trust and comparison messaging so the Ontario-first value proposition and key proof points are clearer immediately below the primary CTA.
 FILE: index.html
-DONE: Added a visible mobile Ontario bonus CTA with a supporting Ontario guide link in the header, while keeping the desktop CTA pair focused.
+DONE: Sharpened the hero trust strip and comparison copy to make Ontario-first eligibility, payout timing, and bonus terms clearer immediately below the primary CTA.
 BROWSER: no
