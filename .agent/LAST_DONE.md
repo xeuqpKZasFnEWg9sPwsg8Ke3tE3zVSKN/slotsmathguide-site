@@ -1,4 +1,4 @@
-TASK: Tighten the header and sticky subnav so Ontario bonus offers stays the dominant commercial path and the supporting navigation feels lighter.
+TASK: Rework the footer into a leaner trust-and-conversion block with one clear CTA and fewer utility links.
 FILE: index.html
-DONE: Made Ontario bonus offers the clear primary path in the header and simplified the sticky subnav to a lighter set of supporting links.
+DONE: Replaced the bulky footer grid with a leaner trust block, one primary CTA, and only two utility links.
 BROWSER: no

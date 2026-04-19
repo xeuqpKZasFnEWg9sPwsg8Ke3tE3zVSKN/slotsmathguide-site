@@ -1,4 +1,4 @@
-TASK: Tighten the header and sticky subnav so Ontario bonus offers stays the dominant commercial path and the supporting navigation feels lighter.
+TASK: Rework the footer into a leaner trust-and-conversion block with one clear CTA and fewer utility links.
 FILE: index.html
-WHY: A cleaner top navigation should improve scanability and conversions by reducing friction before users reach the hero CTA.
+WHY: A cleaner footer should improve trust and keep the homepage commercially focused without adding clutter.
 BROWSER: no
