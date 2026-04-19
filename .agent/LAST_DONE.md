@@ -1,4 +1,4 @@
-TASK: Standardize the footer nav row spacing and hover states so the homepage footer feels cleaner and easier to trust.
+TASK: Add a compact trust-and-updates line near the hero CTA that states the guide is Ontario-first, math-first, and kept current.
 FILE: index.html
-DONE: Replaced the footer link cluster with a single responsive nav row and consistent hover styling for cleaner scanability.
+DONE: Added a compact trust line under the hero CTA that says the guide is Ontario-first, math-first, and kept current as rules and offers change.
 BROWSER: no
