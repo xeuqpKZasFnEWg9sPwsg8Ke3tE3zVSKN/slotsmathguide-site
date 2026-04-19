@@ -1,4 +1,4 @@
-TASK: Tighten the early comparison/value module so it more clearly contrasts generic promo pages with the Ontario-first guide and is easier to scan on mobile.
+TASK: Simplify the header so the Ontario bonus CTA is the clear primary action and the supporting navigation is easier to scan.
 FILE: index.html
-WHY: It should improve conversion and topic discovery by making the guide’s value easier to grasp before the user scrolls away.
+WHY: A cleaner, more focused header should improve conversion by making the next step obvious without adding clutter.
 BROWSER: no

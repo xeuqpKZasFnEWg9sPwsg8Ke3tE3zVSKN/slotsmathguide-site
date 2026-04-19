@@ -1,4 +1,4 @@
-TASK: Tighten the early comparison/value module so it more clearly contrasts generic promo pages with the Ontario-first guide and is easier to scan on mobile.
+TASK: Simplify the header so the Ontario bonus CTA is the clear primary action and the supporting navigation is easier to scan.
 FILE: index.html
-DONE: Reworked the comparison section into clearer side-by-side cards with shorter mobile-friendly bullets.
+DONE: Added a clearer header label and tightened the desktop and mobile nav so the Ontario bonus CTA stands out more cleanly.
 BROWSER: no
