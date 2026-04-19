@@ -1,4 +1,4 @@
-TASK: Add an early comparison/value module so visitors can quickly see why this guide is worth choosing.
+TASK: Add a compact trust-and-disclosure footer block with Ontario-specific credibility and one clear next-step link.
 FILE: index.html
-WHY: It strengthens scanability and conversion by helping users evaluate the offer before they scroll.
+WHY: It strengthens trust and gives cautious visitors a final conversion path without cluttering the homepage.
 BROWSER: no

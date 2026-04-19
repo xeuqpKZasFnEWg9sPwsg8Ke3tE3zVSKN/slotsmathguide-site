@@ -1,4 +1,4 @@
-TASK: Add an early comparison/value module so visitors can quickly see why this guide is worth choosing.
+TASK: Add a compact trust-and-disclosure footer block with Ontario-specific credibility and one clear next-step link.
 FILE: index.html
-DONE: Tightened the early comparison module with clearer contrast, a stronger value statement, and visible next-step CTAs.
+DONE: Added a compact Ontario trust-and-disclosure footer panel with one clear guide link.
 BROWSER: no
