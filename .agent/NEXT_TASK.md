@@ -1,4 +1,4 @@
-TASK: Simplify the sticky header so the primary Ontario bonus CTA is the only high-emphasis action.
+TASK: Tighten the early comparison module so the Ontario-first value contrast is even easier to scan on mobile and desktop.
 FILE: index.html
-WHY: A cleaner header reduces distraction and makes the main conversion path more obvious.
+WHY: A clearer comparison block helps visitors grasp the difference faster and reinforces the homepage's math-first trust signal.
 BROWSER: no
