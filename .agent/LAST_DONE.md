@@ -1,4 +1,4 @@
 TASK: Simplify the homepage header into a cleaner, more focused navigation with one dominant Ontario CTA.
 FILE: index.html
-DONE: Reworked the header into a single clear brand row with one prominent Ontario bonus CTA and no duplicate nav CTA.
+DONE: Removed the desktop theme toggle and kept the header focused on a single Ontario bonus CTA.
 BROWSER: no
