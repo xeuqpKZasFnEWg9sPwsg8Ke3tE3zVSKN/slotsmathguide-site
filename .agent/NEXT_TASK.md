@@ -1,4 +1,4 @@
-TASK: Tighten the hero so the Ontario-first value proposition is instantly clear and the page keeps one dominant primary CTA with one supporting CTA.
+TASK: Add an early comparison/value module so visitors can quickly see why this guide is worth choosing.
 FILE: index.html
-WHY: It improves immediate clarity and makes the homepage convert better by reducing hesitation above the fold.
+WHY: It strengthens scanability and conversion by helping users evaluate the offer before they scroll.
 BROWSER: no

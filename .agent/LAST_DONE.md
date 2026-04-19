@@ -1,4 +1,4 @@
-TASK: Tighten the hero so the Ontario-first value proposition is instantly clear and the page keeps one dominant primary CTA with one supporting CTA only.
+TASK: Add an early comparison/value module so visitors can quickly see why this guide is worth choosing.
 FILE: index.html
-DONE: Reworked the hero copy and CTA pair to make Ontario-first positioning immediate and keep a single primary path with one supporting path.
+DONE: Added a direct comparison module that contrasts generic casino pages with the Ontario-first guide and surfaces the primary path early.
 BROWSER: no
