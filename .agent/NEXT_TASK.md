@@ -1,4 +1,4 @@
-TASK: Make the hero’s primary conversion path more unmistakable by visually emphasizing the Ontario bonus CTA and keeping the supporting Ontario guide CTA secondary.
+TASK: Move the comparison/value module directly below the hero so visitors see the Ontario-first offer distinction sooner.
 FILE: index.html
-WHY: A clearer above-the-fold CTA hierarchy should improve conversion by making the next step obvious without adding clutter.
+WHY: Surfacing the value comparison earlier should improve scanability and conversion by clarifying why this site is worth choosing.
 BROWSER: yes

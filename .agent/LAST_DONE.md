@@ -1,4 +1,4 @@
-TASK: Simplify the footer into a cleaner, more trustworthy exit path by removing duplicate links and keeping Ontario bonus offers and the Ontario guide as the main actions.
+TASK: Move the comparison/value module directly below the hero so visitors see the Ontario-first offer distinction sooner.
 FILE: index.html
-DONE: Removed the footer checklist and tightened the closing copy so the Ontario bonus offers and Ontario guide are the only clear exit actions.
-BROWSER: no
+DONE: Moved the Ontario comparison module directly under the hero CTA so the value distinction appears sooner.
+BROWSER: yes
