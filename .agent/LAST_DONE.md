@@ -1,4 +1,4 @@
-TASK: Simplify the sticky header so the primary Ontario bonus CTA is the only high-emphasis action.
+TASK: Tighten the early comparison module so the Ontario-first value contrast is easier to scan on both mobile and desktop.
 FILE: index.html
-DONE: Muted the brand link and mobile drawer button so the Ontario bonus CTA is the only prominent header action.
+DONE: Reworked the early comparison block into a clearer Ontario versus generic comparison table with mobile-friendly rows.
 BROWSER: no
