@@ -1,4 +1,4 @@
-TASK: Streamline the header so the Ontario bonus offers CTA is the clear primary action and the mobile drawer mirrors that focus.
+TASK: Condense the early comparison module so Ontario eligibility, wagering cost, and payout timing are faster to scan on mobile.
 FILE: index.html
-DONE: Rephrased the primary header CTA and added a focused mobile drawer with the same primary action plus a supporting Ontario guide link.
+DONE: Condensed the comparison rows and tightened mobile spacing for faster Ontario, wagering, and payout scanning.
 BROWSER: no

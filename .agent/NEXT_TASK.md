@@ -1,4 +1,4 @@
-TASK: Streamline the header so the Ontario bonus offers CTA is the clear primary action and the mobile drawer mirrors that focus.
+TASK: Condense the early comparison module so Ontario eligibility, wagering cost, and payout timing are faster to scan on mobile.
 FILE: index.html
-WHY: A cleaner header reduces distraction and gives visitors one obvious path into the monetized content.
+WHY: A tighter comparison block improves scanability and helps visitors judge the real value of an offer sooner.
 BROWSER: no
