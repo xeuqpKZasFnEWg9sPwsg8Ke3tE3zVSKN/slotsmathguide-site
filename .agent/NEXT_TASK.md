@@ -1,4 +1,4 @@
-TASK: Tighten the hero into a sharper Ontario-first scan path with a clearer value promise, one dominant CTA, and more immediate trust signals.
+TASK: Simplify the homepage header into a cleaner, more focused navigation with one dominant Ontario CTA.
 FILE: index.html
-WHY: A stronger above-the-fold message and CTA hierarchy should improve conversion and help hesitant visitors understand the site faster.
+WHY: A tighter header reduces distraction at the top of the page and makes the primary conversion path easier to spot.
 BROWSER: no
