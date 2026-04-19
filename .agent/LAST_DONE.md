@@ -1,4 +1,4 @@
-TASK: Refine the header so it has one clearer primary conversion path and less competing navigation noise.
+TASK: Refine the footer into a cleaner trust-and-navigation close with a stronger Ontario credibility statement and a more focused set of high-value links.
 FILE: index.html
-DONE: Simplified the header to make Ontario bonuses the dominant CTA and removed extra nav clutter.
+DONE: Reworked the footer into a tighter Ontario-first trust close with fewer, higher-value links.
 BROWSER: no

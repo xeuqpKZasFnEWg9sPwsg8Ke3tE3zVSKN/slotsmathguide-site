@@ -1,4 +1,4 @@
-TASK: Refine the header so it has one clearer primary conversion path and less competing navigation noise.
+TASK: Refine the footer into a cleaner trust-and-navigation close with a stronger Ontario credibility statement and a more focused set of high-value links.
 FILE: index.html
-WHY: It will make the homepage easier to scan and push more visitors toward the main Ontario bonus flow.
+WHY: It improves trust and gives visitors a clearer next step without adding clutter.
 BROWSER: no
