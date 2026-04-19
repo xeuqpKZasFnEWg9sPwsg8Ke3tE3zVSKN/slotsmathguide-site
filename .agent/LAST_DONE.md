@@ -1,4 +1,4 @@
-TASK: Refine the footer into a cleaner trust-and-navigation close with a stronger Ontario credibility statement and a more focused set of high-value links.
+TASK: Tighten the hero above the fold so the primary Ontario bonus CTA is even clearer, with a more explicit value proposition and a stronger trust cue.
 FILE: index.html
-DONE: Tightened the footer into a more trust-forward Ontario close with fewer high-value links and a clearer next step.
+DONE: Clarified the hero’s Ontario bonus message, sharpened the primary CTA, and added a stronger trust cue above the fold.
 BROWSER: no

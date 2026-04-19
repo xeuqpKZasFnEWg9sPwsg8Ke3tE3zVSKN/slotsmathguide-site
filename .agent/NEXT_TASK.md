@@ -1,4 +1,4 @@
-TASK: Refine the footer into a cleaner trust-and-navigation close with a stronger Ontario credibility statement and a more focused set of high-value links.
+TASK: Tighten the hero above the fold so the primary Ontario bonus CTA is even clearer, with a more explicit value proposition and a stronger trust cue.
 FILE: index.html
-WHY: It improves trust and gives visitors a clearer next step without adding clutter.
+WHY: It should improve conversion by making the main offer and Ontario credibility easier to grasp instantly.
 BROWSER: no
