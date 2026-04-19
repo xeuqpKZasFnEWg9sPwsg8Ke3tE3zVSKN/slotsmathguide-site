@@ -1,4 +1,4 @@
-TASK: Rework the footer into a leaner trust-and-conversion block with one clear CTA and fewer utility links.
+TASK: Simplify the header into a cleaner, more focused conversion header with one dominant CTA and fewer secondary links.
 FILE: index.html
-WHY: A cleaner footer should improve trust and keep the homepage commercially focused without adding clutter.
+WHY: A tighter header should improve scanability and keep the homepage commercially focused without diluting the main action.
 BROWSER: no

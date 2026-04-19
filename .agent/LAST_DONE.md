@@ -1,4 +1,4 @@
-TASK: Rework the footer into a leaner trust-and-conversion block with one clear CTA and fewer utility links.
+TASK: Simplify the header into a cleaner, more focused conversion header with one dominant CTA and fewer secondary links.
 FILE: index.html
-DONE: Simplified the footer trust block, kept one primary CTA, and removed the extra utility link.
+DONE: Removed the secondary header links so the top navigation now centers on a single primary Ontario bonus offer CTA.
 BROWSER: no
