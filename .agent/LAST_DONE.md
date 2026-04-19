@@ -1,4 +1,4 @@
-TASK: Tighten the hero comparison module so the Ontario-first value proposition is faster to scan and the primary bonus CTA feels more decisive.
+TASK: Simplify the header navigation so the Ontario bonus CTA is the unmistakable primary action and the supporting links feel lighter on mobile.
 FILE: index.html
-DONE: Tightened the hero comparison copy and CTA language so Ontario-first value and the bonus path read faster at a glance.
+DONE: Made the Ontario bonus CTA dominant in the header and softened the supporting Ontario link on mobile.
 BROWSER: no
