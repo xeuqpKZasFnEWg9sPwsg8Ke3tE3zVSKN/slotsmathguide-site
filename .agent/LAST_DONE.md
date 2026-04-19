@@ -1,4 +1,4 @@
-TASK: Add a compact trust-and-updates line near the hero CTA that states the guide is Ontario-first, math-first, and kept current.
+TASK: Simplify the desktop header navigation so only the highest-value conversion paths stay prominent above the fold.
 FILE: index.html
-DONE: Tightened the hero trust note into a compact Ontario-first, math-first, kept-current line for easier scanning.
+DONE: Reduced the desktop header nav to three conversion-focused links, keeping the homepage cleaner and more focused above the fold.
 BROWSER: no
