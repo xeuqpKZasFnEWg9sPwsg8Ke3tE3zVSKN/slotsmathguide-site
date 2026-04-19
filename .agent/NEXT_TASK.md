@@ -1,4 +1,4 @@
-TASK: Tighten the early comparison module so the Ontario-first value contrast is easier to scan on both mobile and desktop.
+TASK: Streamline the header so the Ontario bonus offers CTA is the clear primary action and the mobile drawer mirrors that focus.
 FILE: index.html
-WHY: A clearer comparison block helps visitors grasp the difference faster and strengthens the homepage's trust signal.
+WHY: A cleaner header reduces distraction and gives visitors one obvious path into the monetized content.
 BROWSER: no

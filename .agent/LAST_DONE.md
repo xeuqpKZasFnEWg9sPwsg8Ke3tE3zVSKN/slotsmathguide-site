@@ -1,4 +1,4 @@
-TASK: Tighten the early comparison module so the Ontario-first value contrast is easier to scan on both mobile and desktop.
+TASK: Streamline the header so the Ontario bonus offers CTA is the clear primary action and the mobile drawer mirrors that focus.
 FILE: index.html
-DONE: Reworked the comparison cells into clearer, card-like contrast blocks with stronger at-a-glance labels.
+DONE: Rephrased the primary header CTA and added a focused mobile drawer with the same primary action plus a supporting Ontario guide link.
 BROWSER: no
