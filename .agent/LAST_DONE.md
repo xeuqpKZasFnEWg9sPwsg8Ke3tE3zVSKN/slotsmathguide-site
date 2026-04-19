@@ -1,4 +1,4 @@
-TASK: Tighten the early comparison module so the Ontario-first value proposition and tradeoffs are easier to scan on mobile.
+TASK: Simplify the sticky header so the primary Ontario bonus CTA is the only high-emphasis action.
 FILE: index.html
-DONE: Added a more scannable Ontario-first comparison strip and tightened the contrast copy for the hero comparison block.
+DONE: Made the sticky header utility links all ghost-style so only the Ontario bonus CTA reads as the primary action.
 BROWSER: no

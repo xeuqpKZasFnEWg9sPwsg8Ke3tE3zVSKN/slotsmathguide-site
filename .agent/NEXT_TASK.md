@@ -1,4 +1,4 @@
-TASK: Tighten the early comparison module so the Ontario-first value proposition and tradeoffs are easier to scan on mobile.
+TASK: Simplify the sticky header so the primary Ontario bonus CTA is the only high-emphasis action.
 FILE: index.html
-WHY: A sharper comparison block makes the homepage's core promise clearer faster, which improves trust and click-through.
+WHY: A cleaner header reduces distraction and makes the main conversion path more obvious.
 BROWSER: no
