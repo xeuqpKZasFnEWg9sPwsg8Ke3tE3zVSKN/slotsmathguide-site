@@ -1,4 +1,4 @@
-TASK: Tighten the hero above the fold so the primary Ontario bonus CTA is even clearer, with a more explicit value proposition and a stronger trust cue.
+TASK: Tighten the early comparison/value module so it more clearly contrasts generic promo pages with the Ontario-first guide and is easier to scan on mobile.
 FILE: index.html
-WHY: It should improve conversion by making the main offer and Ontario credibility easier to grasp instantly.
+WHY: It should improve conversion and topic discovery by making the guide’s value easier to grasp before the user scrolls away.
 BROWSER: no
