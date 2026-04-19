@@ -1,4 +1,4 @@
-TASK: Tighten the header and subnav into a cleaner, more focused conversion path with Ontario bonus offers and Ontario guide as the primary actions.
+TASK: Simplify the footer into a cleaner, more trustworthy exit path by removing duplicate links and keeping Ontario bonus offers and the Ontario guide as the main actions.
 FILE: index.html
-DONE: Simplified the desktop subnav by grouping Ontario bonus offers and Ontario guide as the primary actions and demoting utility links into a lighter secondary cluster.
+DONE: Trimmed the footer utility area to non-duplicative links and replaced the bottom link row with a simple trust note, keeping the Ontario bonus offers and Ontario guide as the main actions.
 BROWSER: no

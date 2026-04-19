@@ -1,4 +1,4 @@
-TASK: Tighten the header and subnav into a cleaner, more focused conversion path with Ontario bonus offers and Ontario guide as the primary actions.
+TASK: Simplify the footer into a cleaner, more trustworthy exit path by removing duplicate links and keeping Ontario bonus offers and the Ontario guide as the main actions.
 FILE: index.html
-WHY: A more focused top-of-page navigation improves scanability and keeps the highest-value next steps obvious.
+WHY: A tighter footer improves scanability and makes the final conversion path easier to trust and use.
 BROWSER: no
