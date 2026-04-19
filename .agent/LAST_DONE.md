@@ -1,4 +1,4 @@
-TASK: Add a single dominant hero CTA with a supporting secondary CTA so the main Ontario conversion path is obvious above the fold.
+TASK: Standardize the footer nav row spacing and hover states so the homepage footer feels cleaner and easier to trust.
 FILE: index.html
-DONE: Removed the duplicate comparison-module buttons and left one primary Ontario CTA pair in the hero for a cleaner conversion path.
+DONE: Replaced the footer link cluster with a single responsive nav row and consistent hover styling for cleaner scanability.
 BROWSER: no

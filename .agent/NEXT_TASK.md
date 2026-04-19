@@ -1,4 +1,4 @@
-TASK: Add a single dominant hero CTA with a supporting secondary CTA so the main Ontario conversion path is obvious above the fold.
+TASK: Standardize the footer nav row spacing and hover states so the homepage footer feels cleaner and easier to trust.
 FILE: index.html
-WHY: It makes the page’s main action immediately clear, which should lift conversions without adding clutter.
+WHY: It improves scanability and credibility at the bottom of the homepage without adding clutter.
 BROWSER: no
