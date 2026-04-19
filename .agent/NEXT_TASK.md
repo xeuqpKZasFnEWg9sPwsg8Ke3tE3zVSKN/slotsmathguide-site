@@ -1,4 +1,4 @@
-TASK: Simplify the header so the Ontario bonus CTA is the clear primary action and the supporting navigation is easier to scan.
+TASK: Make the footer more useful by adding a compact trust-and-links block that surfaces the most important Ontario, bonus, and withdrawal destinations.
 FILE: index.html
-WHY: A cleaner, more focused header should improve conversion by making the next step obvious without adding clutter.
+WHY: A stronger footer can improve trust and topic discovery while giving hesitant visitors one last clear path deeper into the site.
 BROWSER: no
