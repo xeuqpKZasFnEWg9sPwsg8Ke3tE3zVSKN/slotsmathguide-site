@@ -1,4 +1,4 @@
-TASK: Strengthen the footer into a cleaner final conversion block with Ontario trust cues and the most useful next-step links.
+TASK: Tighten the header and subnav into a cleaner, more focused conversion path with Ontario bonus offers and Ontario guide as the primary actions.
 FILE: index.html
-WHY: A clearer closing section increases trust and gives visitors one last obvious path into the offer pages.
+WHY: A more focused top-of-page navigation improves scanability and keeps the highest-value next steps obvious.
 BROWSER: no
