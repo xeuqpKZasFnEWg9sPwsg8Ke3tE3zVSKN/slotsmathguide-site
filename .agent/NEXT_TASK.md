@@ -1,4 +1,4 @@
-TASK: Add a compact “popular next reads” section below the hero that surfaces the highest-value internal links for RTP, bonuses, withdrawals, and Ontario.
+TASK: Tighten the hero so the Ontario-first value proposition is instantly clear and the page keeps one dominant primary CTA with one supporting CTA.
 FILE: index.html
-WHY: It improves scanability and topic discovery while creating more paths into high-intent pages.
+WHY: It improves immediate clarity and makes the homepage convert better by reducing hesitation above the fold.
 BROWSER: no

@@ -1,4 +1,4 @@
-TASK: Add a compact “popular next reads” section below the hero that surfaces the highest-value internal links for RTP, bonuses, withdrawals, and Ontario.
+TASK: Tighten the hero so the Ontario-first value proposition is instantly clear and the page keeps one dominant primary CTA with one supporting CTA only.
 FILE: index.html
-DONE: Added a compact popular next reads section below the hero and pointed the withdrawals card to the main payments and withdrawals hub.
+DONE: Reworked the hero copy and CTA pair to make Ontario-first positioning immediate and keep a single primary path with one supporting path.
 BROWSER: no
