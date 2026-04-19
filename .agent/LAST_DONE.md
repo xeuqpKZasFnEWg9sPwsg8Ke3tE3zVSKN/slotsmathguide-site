@@ -1,4 +1,4 @@
-TASK: Simplify the header navigation so the Ontario bonus CTA is the unmistakable primary action and the supporting links feel lighter on mobile.
+TASK: Tighten the early comparison module so Ontario-first advantages are easier to scan on mobile, with shorter bullets and a clearer callout of wagering, max cashout, and withdrawal timing.
 FILE: index.html
-DONE: Made the Ontario bonus CTA more dominant and softened the Ontario guide link in both desktop and mobile header navigation.
+DONE: Shortened the early comparison copy and made wagering, max cashout, and withdrawal timing easier to scan.
 BROWSER: no
