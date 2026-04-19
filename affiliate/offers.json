@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "notes": "Official destination URLs only (no affiliate IDs yet). When you sign up, add affiliate params per operator here and update /go/ redirects to use tracked URLs. Regions scaffold added for future province/state expansion.",
+  "notes": "Official destination URLs only. Update /go/ redirects to use tracked URLs when ready.",
   "operators": [
     {
       "slug": "betmgm",
