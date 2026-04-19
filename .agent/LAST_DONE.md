@@ -1,4 +1,4 @@
-TASK: Condense the early comparison module so Ontario eligibility, wagering cost, and payout timing are faster to scan on mobile.
+TASK: Strengthen the footer into a cleaner final conversion block with Ontario trust cues and the most useful next-step links.
 FILE: index.html
-DONE: Tightened the comparison copy and mobile spacing so Ontario eligibility, wagering cost, and payout timing scan faster.
+DONE: Reworked the footer into a tighter Ontario trust block with clearer conversion CTAs and more useful next-step links.
 BROWSER: no

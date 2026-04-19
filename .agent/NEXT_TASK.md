@@ -1,4 +1,4 @@
-TASK: Condense the early comparison module so Ontario eligibility, wagering cost, and payout timing are faster to scan on mobile.
+TASK: Strengthen the footer into a cleaner final conversion block with Ontario trust cues and the most useful next-step links.
 FILE: index.html
-WHY: A tighter comparison block improves scanability and helps visitors judge the real value of an offer sooner.
+WHY: A clearer closing section increases trust and gives visitors one last obvious path into the offer pages.
 BROWSER: no
