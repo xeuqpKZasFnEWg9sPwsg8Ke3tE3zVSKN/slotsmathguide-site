@@ -1,4 +1,4 @@
-TASK: Strengthen the hero so the value proposition and Ontario-first trust are immediately obvious above the fold.
+TASK: Refine the header so it has one clearer primary conversion path and less competing navigation noise.
 FILE: index.html
-WHY: It improves first-impression clarity and trust, which should lift homepage conversion.
+WHY: It will make the homepage easier to scan and push more visitors toward the main Ontario bonus flow.
 BROWSER: no
