@@ -1,4 +1,4 @@
-TASK: Add a compact Ontario trust strip under the hero that reinforces math-first credibility, real withdrawal timelines, and bonus caution before the CTA choices.
+TASK: Add a compact “popular next reads” section below the hero that surfaces the highest-value internal links for RTP, bonuses, withdrawals, and Ontario.
 FILE: index.html
-DONE: Added a compact three-card Ontario trust strip under the hero highlighting math-first credibility, realistic withdrawal timelines, and bonus caution.
+DONE: Added a compact popular next reads section below the hero with quick links to RTP, bonuses, withdrawals, and Ontario pages.
 BROWSER: no
