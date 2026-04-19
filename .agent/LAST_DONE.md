@@ -1,4 +1,4 @@
-TASK: Tighten the hero trust and comparison messaging so the Ontario-first value proposition and key proof points are clearer immediately below the primary CTA.
+TASK: Tighten the header and sticky subnav so Ontario bonus offers stays the dominant commercial path and the supporting navigation feels lighter.
 FILE: index.html
-DONE: Sharpened the hero trust cards and comparison copy to make Ontario eligibility, payout timing, and bonus terms easier to scan right below the primary CTA.
+DONE: Made Ontario bonus offers the clear primary path in the header and simplified the sticky subnav to a lighter set of supporting links.
 BROWSER: no

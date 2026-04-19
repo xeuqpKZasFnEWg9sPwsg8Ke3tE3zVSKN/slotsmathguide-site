@@ -1,4 +1,4 @@
-TASK: Tighten the hero trust and comparison messaging so the Ontario-first value proposition and key proof points are clearer immediately below the primary CTA.
+TASK: Tighten the header and sticky subnav so Ontario bonus offers stays the dominant commercial path and the supporting navigation feels lighter.
 FILE: index.html
-WHY: Sharper above-the-fold messaging should improve conversion and trust by making the page's value obvious faster.
+WHY: A cleaner top navigation should improve scanability and conversions by reducing friction before users reach the hero CTA.
 BROWSER: no
